@@ -1,0 +1,40 @@
+{
+  "input_bytes": 246244,
+  "sha256": "87c882910d87cd29ba2004c4154e9240291aaad6aedb0ff4d90c7a5570be79fd",
+  "input_unchanged": true,
+  "segment_count": 4,
+  "all_segment_hashes_verified": true,
+  "linear_assembly_exports": [
+    {
+      "segment_index": 1,
+      "command": [
+        "/workspace/build/evidence/hgw500-quantenna-firmwares-20261103/tools/arc-objdump",
+        "-D",
+        "-z",
+        "-b",
+        "binary",
+        "-m",
+        "arc:ARC700",
+        "-EL",
+        "--adjust-vma=0x20000",
+        "/workspace/build/evidence/hgw500-quantenna-firmwares-20261103/run1/dsp/segments/segment-01.bin"
+      ],
+      "returncode": 0,
+      "linear_decode_rows": 75363,
+      "assembly": "segment-01.asm",
+      "file_bytes": 246020
+    }
+  ],
+  "decompiled_c_recovered": false,
+  "hardware_accessed": false,
+  "limits": [
+    "Carrier ELF e_machine is ARCompact. Processor extensions and actual execution mode need independent validation.",
+    "GNU objdump performs linear decoding of every executable-marked file-backed segment. Data embedded in such segments can decode as instructions.",
+    "Duplicated virtual-address segments remain separate. Loader order and physical-address overrides are preserved in elf-layout.json.",
+    "No section table, symbols or debug information are present. Function boundaries are not recovered.",
+    "Ghidra 12.1.3 stock has no ARC language. REA failure records are retained.",
+    "No functionally equivalent C reconstruction or firmware behavior is claimed."
+  ],
+  "disassembler_architecture": "arc:ARC700",
+  "disassembler_byte_order": "little (-EL)"
+}

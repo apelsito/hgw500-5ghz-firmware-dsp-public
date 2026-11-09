@@ -1,0 +1,3613 @@
+{
+  "schema": "openmitrastar.quantenna-carrier-files/v1",
+  "role": "dsp",
+  "date": "2026-11-03",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 8,
+      "sha256": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 44,
+      "sha256": "d460c4902d269280852598b877edf10fbb05306d3234b2acf6a8dae3df7c6d04"
+    },
+    {
+      "path": "AGENTS.md",
+      "bytes": 1819,
+      "sha256": "6a7db482a19e980b94cd7a7f9df31234af0dd0ee9714c00cb17804a145051d52"
+    },
+    {
+      "path": "PROVENANCE.json",
+      "bytes": 2799,
+      "sha256": "f410d3b19720b2bbd367eb08e039a9c7c400dbb378a419a2d193511007043f62"
+    },
+    {
+      "path": "README.md",
+      "bytes": 3150,
+      "sha256": "d4b7ff928ba447f778e242cdf2f40f54997625fb7238ec814dfb8dfa018cbdda"
+    },
+    {
+      "path": "analysis/elf-layout.json",
+      "bytes": 1529,
+      "sha256": "3c9ec756e97c2df2249c6440ea66f9032417c7395e20294e942f193a6db49b58"
+    },
+    {
+      "path": "analysis/firmware-info.json",
+      "bytes": 221,
+      "sha256": "e08c345ac29ba2b5df6496680c6aa2853e56e2dc10f06caea3df766a835e1ea1"
+    },
+    {
+      "path": "analysis/rea-arc-headers.json",
+      "bytes": 3256,
+      "sha256": "06c4c8e147bbd3c3e4185338782a1f3e8d7e11f92e6f58b556ad052036ce1e71"
+    },
+    {
+      "path": "analysis/rea-arc-headers.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "analysis/rea-arc-headers.stdout",
+      "bytes": 2457,
+      "sha256": "190a9ab445d6cc5b624427da2fec171c27c078913d1aa78a7913ffa2a644edcf"
+    },
+    {
+      "path": "analysis/rea-artifact.json",
+      "bytes": 857,
+      "sha256": "238a1880490b0139a56a873ec98f704a3cdfa6237529abf3238c87dfacea3e12"
+    },
+    {
+      "path": "analysis/rea-artifact.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "analysis/rea-artifact.stdout",
+      "bytes": 464,
+      "sha256": "68dd247388fe5661affec1734351b23a39587c24966df0c3e474972a3bacc18a"
+    },
+    {
+      "path": "analysis/rea-decompile-all.json",
+      "bytes": 999,
+      "sha256": "c6e8b5300569b74b098a3f7d3c0e0737306558e1b461a2ef251f394d8da7b632"
+    },
+    {
+      "path": "analysis/rea-decompile-all.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "analysis/rea-decompile-all.stdout",
+      "bytes": 464,
+      "sha256": "68dd247388fe5661affec1734351b23a39587c24966df0c3e474972a3bacc18a"
+    },
+    {
+      "path": "analysis/rea-entropy.json",
+      "bytes": 9342,
+      "sha256": "fd6c8abcf57a1c223c7a9de0756ff476e73cb2c566539070f87b50e7a1d8c5f7"
+    },
+    {
+      "path": "analysis/rea-entropy.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "analysis/rea-entropy.stdout",
+      "bytes": 5140,
+      "sha256": "5afbb52d7be0b4f5253bb0eafff33854b4fc6ffb5a7b889a49d3e67dff9019e9"
+    },
+    {
+      "path": "analysis/rea-ghidra-analysis.json",
+      "bytes": 894,
+      "sha256": "f4adc70a737e8502f031a96ae1270ef3c1bb51fa714d64f053381c2b5b1647d8"
+    },
+    {
+      "path": "analysis/rea-ghidra-analysis.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "analysis/rea-ghidra-analysis.stdout",
+      "bytes": 464,
+      "sha256": "68dd247388fe5661affec1734351b23a39587c24966df0c3e474972a3bacc18a"
+    },
+    {
+      "path": "analysis/rea-layout.json",
+      "bytes": 1480,
+      "sha256": "0db9e742f3423ec442b9653d2c1c16cfb89bc98cd1e5db023bfef8732ba643f8"
+    },
+    {
+      "path": "analysis/rea-layout.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "analysis/rea-layout.stdout",
+      "bytes": 948,
+      "sha256": "06ebd2e6242d9552721c321e4d6717c5d6b74adcc6fae3bc718e9fb481949bd3"
+    },
+    {
+      "path": "analysis/rea-regions.json",
+      "bytes": 5155,
+      "sha256": "7a0c37fb3ecf71413c8ff11f54915488a6671b82eeab40bfc3a662fd8b75cf81"
+    },
+    {
+      "path": "analysis/rea-regions.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "analysis/rea-regions.stdout",
+      "bytes": 3584,
+      "sha256": "3ee11526825ce1e706228adcf3d6c395310d2ffbedabf8ab87140aba55edbece"
+    },
+    {
+      "path": "analysis/readelf.json",
+      "bytes": 258,
+      "sha256": "c790680f3235c7c07aea68fcaa2c53e7ae8415ff66a8fe3dc7c02a15b7a26751"
+    },
+    {
+      "path": "analysis/readelf.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "analysis/readelf.stdout",
+      "bytes": 1326,
+      "sha256": "f0c58a177cc372a3e968bbe60379bf7443f4859752b9ea60fc45b405f1e4b9da"
+    },
+    {
+      "path": "analysis/strings.tsv",
+      "bytes": 46291,
+      "sha256": "05b5036e544ba98fbce1209d3d6b162d9f8d91b49b2fcebe7629b8d00b76f218"
+    },
+    {
+      "path": "analysis/verification.json",
+      "bytes": 1607,
+      "sha256": "03286a07066a3ee85106bad2fbb20e80a51cc96ae9a91459152a3314fd844b0f"
+    },
+    {
+      "path": "byte-verification.json",
+      "bytes": 844,
+      "sha256": "436168e412c9c4d67a3903a39b1c7f5d624f8195986f77e0e870f5a6367b5927"
+    },
+    {
+      "path": "docs/CHECKOUT_AVAILABILITY.md",
+      "bytes": 1351,
+      "sha256": "f09259774d4c3611395a590ec4dfc8685ba3d1b7a769413af9a7352de25834d0"
+    },
+    {
+      "path": "docs/FIRMWARE_MAP.md",
+      "bytes": 5230,
+      "sha256": "87f6112065c9181f3be9f1cf59393c88fc1863b1d90a8faac7487d3b27f5e77c"
+    },
+    {
+      "path": "docs/HARDWARE_ARCHITECTURE.md",
+      "bytes": 4217,
+      "sha256": "5818bcfc2f4dae596f48a4d356a39730b6e9ec5e30639d360064752e3d950106"
+    },
+    {
+      "path": "docs/PROJECT_HANDOFF.md",
+      "bytes": 2838,
+      "sha256": "3ef3e57c04b31c9b99b96297eff134690543e6f4c94b6a0c7e67474b1499b6e0"
+    },
+    {
+      "path": "docs/REFERENCE_NOTES.md",
+      "bytes": 7861,
+      "sha256": "12f46a72c1a3e5f58e379cc970e2f7f1b2a96cc95a77585b3600052a22bdadbc"
+    },
+    {
+      "path": "docs/REPOSITORY_MAP.md",
+      "bytes": 1934,
+      "sha256": "05820ef892aa97613a8c3515305da559f2039202bcfa9d421997263158e569f1"
+    },
+    {
+      "path": "docs/SYSTEM_ARCHITECTURE.md",
+      "bytes": 3289,
+      "sha256": "410c13e9c8c874fdb9e40e0c32082d84963c18abe659ba23494a467458ca026c"
+    },
+    {
+      "path": "docs/firmware-inventory.json",
+      "bytes": 7954,
+      "sha256": "2176eeb3c3d5d0011c8c23f257bca8391f37634043646e318089967231b52d56"
+    },
+    {
+      "path": "docs/hardware/evidence.json",
+      "bytes": 6456,
+      "sha256": "fa00f97fd2d5741dcded56a8d1bb3e7a8d6f918f795404c0e9c6ad66bf43c498"
+    },
+    {
+      "path": "docs/hardware/hgw500-processing-architecture.mmd",
+      "bytes": 583,
+      "sha256": "6be54674e256e7bd5af20070e2c49cfae077f10734b52354e7976567721ee8e6"
+    },
+    {
+      "path": "docs/hardware/hgw500-processing-architecture.png",
+      "bytes": 157066,
+      "sha256": "9b11049483af6b9823a7d27847e077bd584375a4d6f14319b597c788a6f48ab7"
+    },
+    {
+      "path": "ghidra-support/LICENSE",
+      "bytes": 11357,
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+    },
+    {
+      "path": "ghidra-support/README.md",
+      "bytes": 685,
+      "sha256": "8aad820e615ffd9170da218268a2a3c33ab3cd8b2d7b7b0c4b415118c9064e42"
+    },
+    {
+      "path": "ghidra-support/extension-receipt.json",
+      "bytes": 510,
+      "sha256": "91fb76b6efcef2061fb9438ed9c5a8aff20b7ec8dbcc38a67f8241a5d55d098d"
+    },
+    {
+      "path": "ghidra-support/ghidra_12.1.3_PUBLIC_20261025_ARCompact.zip",
+      "bytes": 218353,
+      "sha256": "8153e331b8521d5c5bb0797aaa1d7235c8246c96f72a8c55aa9b5b26db63595d"
+    },
+    {
+      "path": "ghidra/analysis-command.json",
+      "bytes": 1110,
+      "sha256": "6458cff9698694046deb3d709f1c46790127f69cb6a49a0f628e318be42f4086"
+    },
+    {
+      "path": "ghidra/analysis.stderr",
+      "bytes": 178,
+      "sha256": "85f9902c4f8155abd8df72486ef0b1ea3ab7d4136434571fa6ae9fe4b238a8db"
+    },
+    {
+      "path": "ghidra/analysis.stdout",
+      "bytes": 7897,
+      "sha256": "cbdcd366b79ff13c015690163c33c2207405b6de076e193be09c76b7cd9e0e2a"
+    },
+    {
+      "path": "ghidra/byte-verification.json",
+      "bytes": 1088,
+      "sha256": "d77eeddaccd92ebf73b97d6daf308a4da21c478210824c297ce78418583e6307"
+    },
+    {
+      "path": "ghidra/carrier-import.json",
+      "bytes": 410,
+      "sha256": "6a23ebd0c06ee59441e82b45ead7c4422844ed6889605bd6f2b60d9ce38d5928"
+    },
+    {
+      "path": "ghidra/carrier-segment-plan.tsv",
+      "bytes": 754,
+      "sha256": "902b6c7881845d20f4a33c7949174073566f96353060f1921b3d329341ffd2fa"
+    },
+    {
+      "path": "ghidra/compare-command.json",
+      "bytes": 422,
+      "sha256": "b78630e66116912a1fa8d0be61ec7b1dc1c1e5861fe95650708c1f1be88b7490"
+    },
+    {
+      "path": "ghidra/compare.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "ghidra/compare.stdout",
+      "bytes": 349,
+      "sha256": "eb292ec2fd59c6e70e0467debe9ddd6d16e7bf55c3a7561f2dc17af829fb200a"
+    },
+    {
+      "path": "ghidra/functions/ram_20000.asm",
+      "bytes": 173,
+      "sha256": "3679d748f9fab6cd412287f4fe00af481c6720439b4712ba69322be7dc31d61d"
+    },
+    {
+      "path": "ghidra/functions/ram_20000.c",
+      "bytes": 797,
+      "sha256": "f716f9be779c60ad940a9daae7f21dd3559cdf98ac6ec112a96d8dc99b7f46ce"
+    },
+    {
+      "path": "ghidra/functions/ram_20100.asm",
+      "bytes": 375,
+      "sha256": "fef00404bf8525ad22758d226fb6a960baea5e08face8d9c9276540eec5eca50"
+    },
+    {
+      "path": "ghidra/functions/ram_20100.c",
+      "bytes": 294,
+      "sha256": "1fdf6b96fb7fc401a9837455f7960fcee0a86dfdb3580c1135216315d4ddc8fd"
+    },
+    {
+      "path": "ghidra/functions/ram_20120.asm",
+      "bytes": 221,
+      "sha256": "3787dd101d44a93e4fb5434431995b7760ec10ccb06f3df6a16650a1ba075e78"
+    },
+    {
+      "path": "ghidra/functions/ram_20120.c",
+      "bytes": 204,
+      "sha256": "4bfa2d43fef9422aa0af1070b97c50634ab9ce0d70fac9c0cd083144ae67242c"
+    },
+    {
+      "path": "ghidra/functions/ram_2012c.asm",
+      "bytes": 1510,
+      "sha256": "13dded241de592284c0ca84b8363cc4d27291a9d3e0d4fe8918f179af4dbf762"
+    },
+    {
+      "path": "ghidra/functions/ram_2012c.c",
+      "bytes": 800,
+      "sha256": "ada26deb50b70fa4518120a8a8a4aca436ee9c3589e49a8477d25b974a0ff200"
+    },
+    {
+      "path": "ghidra/functions/ram_201e4.asm",
+      "bytes": 322,
+      "sha256": "c5eb5ccb6520cf671763d7786db2ed8bf976a41bea54bef996f374052a08b41c"
+    },
+    {
+      "path": "ghidra/functions/ram_201e4.c",
+      "bytes": 190,
+      "sha256": "76e40486cdd6e713e586caddbde4e3eecf271acff397d929fe1e656e4fbcd955"
+    },
+    {
+      "path": "ghidra/functions/ram_20200.asm",
+      "bytes": 581,
+      "sha256": "45d675182545dc151f1b7a1997888b6095acfefa454991e893edf7503b9a88d3"
+    },
+    {
+      "path": "ghidra/functions/ram_20200.c",
+      "bytes": 497,
+      "sha256": "03c202147060f7ce44cf8af95c07f36a2df93a6cde0f76deef81583f9164f242"
+    },
+    {
+      "path": "ghidra/functions/ram_2086c.asm",
+      "bytes": 789,
+      "sha256": "3e15c40d8829c9262fca4fb31f29fd3028b1b2fde4a7440ad8911f1dc2a01830"
+    },
+    {
+      "path": "ghidra/functions/ram_2086c.c",
+      "bytes": 336,
+      "sha256": "16efcfe03f446d5ffcf308c212e51b6b05f08be72f7e8d5124b5bde3dd104d9e"
+    },
+    {
+      "path": "ghidra/functions/ram_208a0.asm",
+      "bytes": 368,
+      "sha256": "7385a6d1ccdafa35752c2be98d261d99988702a10241f91c2a388aa8b21514fb"
+    },
+    {
+      "path": "ghidra/functions/ram_208a0.c",
+      "bytes": 275,
+      "sha256": "47bfdfed9133dcee4b4318880a8a8a1705ec422d37745845328238186239b730"
+    },
+    {
+      "path": "ghidra/functions/ram_208bc.asm",
+      "bytes": 1994,
+      "sha256": "0eef01e59a5e3918a18382348be25a60da7fb5a980e8cafa453c6288161d8c91"
+    },
+    {
+      "path": "ghidra/functions/ram_208bc.c",
+      "bytes": 1019,
+      "sha256": "bb5503830a5cabfe95a782ac95b9c70eb1e771e20313674b3d06c955c141e5f6"
+    },
+    {
+      "path": "ghidra/functions/ram_20980.asm",
+      "bytes": 2261,
+      "sha256": "e04445354c6892ea6efcf68a17d7d55b3217b8d9193f77156c5f30f81a6ef839"
+    },
+    {
+      "path": "ghidra/functions/ram_20980.c",
+      "bytes": 1072,
+      "sha256": "c1d00d5fb7126b055ae201359c404ddc620697dffd22a043046e4ce5eb3439f6"
+    },
+    {
+      "path": "ghidra/functions/ram_20a44.asm",
+      "bytes": 713,
+      "sha256": "bbaec9e6e28f36b8e7d8293448aa62ffe966167dde5de14d256491701127ddb9"
+    },
+    {
+      "path": "ghidra/functions/ram_20a44.c",
+      "bytes": 433,
+      "sha256": "b5430a2a5dd59a39bd6769c1b4924370a9064c8646b5a3bbe7a10c78998e705d"
+    },
+    {
+      "path": "ghidra/functions/ram_20a7c.asm",
+      "bytes": 325,
+      "sha256": "65d00b11e8c738dacd0fad672e3145ebd4ae00d8d057521468827dbec4c47ef5"
+    },
+    {
+      "path": "ghidra/functions/ram_20a7c.c",
+      "bytes": 207,
+      "sha256": "bcdff5274d78154fc402acfa56945c5e843d2d8e987c7d880a7ecc76e0be0be8"
+    },
+    {
+      "path": "ghidra/functions/ram_20a90.asm",
+      "bytes": 292,
+      "sha256": "c9254e1e45c1d2815335e0be3faf53f8869654fe1cac8174cc724746c3c3dcca"
+    },
+    {
+      "path": "ghidra/functions/ram_20a90.c",
+      "bytes": 200,
+      "sha256": "cf7f2a1f34d506e845349232d646ebbf9dae18e6ce975e99812dce77a9c9b029"
+    },
+    {
+      "path": "ghidra/functions/ram_20aa0.asm",
+      "bytes": 944,
+      "sha256": "34a9dd090bb7da9ab27a196e01f03f27434ecadf641ba1a0e95b4253a47c021d"
+    },
+    {
+      "path": "ghidra/functions/ram_20aa0.c",
+      "bytes": 487,
+      "sha256": "971ff7178e227d5a4fc1b86f9fac3c3978d35b322eea81ee9f9514a39eaab99d"
+    },
+    {
+      "path": "ghidra/functions/ram_20ae4.asm",
+      "bytes": 1025,
+      "sha256": "3475daf17141af10b66f2f2ff6208c6f4ff713abbeae5596f0e937997900d134"
+    },
+    {
+      "path": "ghidra/functions/ram_20ae4.c",
+      "bytes": 543,
+      "sha256": "f4db21025a02f91d4fc70bbdc93702a4e67da7bce6c4aaf53705397b6c5e11f9"
+    },
+    {
+      "path": "ghidra/functions/ram_20bac.asm",
+      "bytes": 1112,
+      "sha256": "32b7111f172b3368924b8010e5d3510acbb265ec5224508144cd51136c7c07b9"
+    },
+    {
+      "path": "ghidra/functions/ram_20bac.c",
+      "bytes": 623,
+      "sha256": "414a648dc4090b4ad2e31be92a7bead386e56a7501f245091e6ddf81e546c418"
+    },
+    {
+      "path": "ghidra/functions/ram_20c00.asm",
+      "bytes": 1160,
+      "sha256": "2003f6ad238e1f26fe5bc2d61ed4b1a55e6e9d4b9d7410f60d66e460a53f1937"
+    },
+    {
+      "path": "ghidra/functions/ram_20c00.c",
+      "bytes": 746,
+      "sha256": "5a349609a1edac83960bae3572585653880e11397b2b75aa1324b83b0734934b"
+    },
+    {
+      "path": "ghidra/functions/ram_20c68.asm",
+      "bytes": 406,
+      "sha256": "516deec4954bf6ba77c08f9dea0279fbb67bde5e419f14bb5cc789f93f7c8e07"
+    },
+    {
+      "path": "ghidra/functions/ram_20c68.c",
+      "bytes": 223,
+      "sha256": "5dbfb23203268ea75275e0bc8dff8c5e9818d3ab5e4d9d9a6ecbdd406bd476d6"
+    },
+    {
+      "path": "ghidra/functions/ram_20c84.asm",
+      "bytes": 293,
+      "sha256": "f1b43c0e01171f55790ff29c673bdcd443bfa0e764e42388c08e7bfb372e3a93"
+    },
+    {
+      "path": "ghidra/functions/ram_20c84.c",
+      "bytes": 197,
+      "sha256": "42de48ead2ae91b5dd3cebefb449548e0422d198ab583ae91879cf1f8b284292"
+    },
+    {
+      "path": "ghidra/functions/ram_212d0.asm",
+      "bytes": 9792,
+      "sha256": "c19064ca1b223d218940004c04476dfe42aa799987ce1da8b0195aad1f5ff100"
+    },
+    {
+      "path": "ghidra/functions/ram_212d0.c",
+      "bytes": 4489,
+      "sha256": "f36133870e7c606490c22dddcd4e11a6e17707b9bc0b00823ff0d6b44551196c"
+    },
+    {
+      "path": "ghidra/functions/ram_21650.asm",
+      "bytes": 9541,
+      "sha256": "42bac503f3d4d6c68c96d307af77e2fff2a9fd533d2423dcec67058941415eda"
+    },
+    {
+      "path": "ghidra/functions/ram_21650.c",
+      "bytes": 4428,
+      "sha256": "8317811c78126929ceaa8f226c1e44399db0ddd30b28b76aa3fd742ff1362436"
+    },
+    {
+      "path": "ghidra/functions/ram_228ac.asm",
+      "bytes": 738,
+      "sha256": "4e523ddbf98f528cf22f5287ed0e12f20f2444329596cc2f07cb4212c9fdce5d"
+    },
+    {
+      "path": "ghidra/functions/ram_228ac.c",
+      "bytes": 485,
+      "sha256": "aac30341533691367e274172f8f18ff93bf8be6894ca516f388b854ab5faa2ae"
+    },
+    {
+      "path": "ghidra/functions/ram_228e0.asm",
+      "bytes": 1476,
+      "sha256": "710b8b23b9be2990f796fdf2be16143e80c20af976b8484777323243831869bc"
+    },
+    {
+      "path": "ghidra/functions/ram_228e0.c",
+      "bytes": 688,
+      "sha256": "386d443d8b2c6c980b91d6d27f1437175b845e445b0923371a7a192b3f99df60"
+    },
+    {
+      "path": "ghidra/functions/ram_2294c.asm",
+      "bytes": 608,
+      "sha256": "0e7c17f9b9f07e2bac16fb88d4bcc80a5a862bb1e60ad49a861d85c0a205810a"
+    },
+    {
+      "path": "ghidra/functions/ram_2294c.c",
+      "bytes": 611,
+      "sha256": "68ede712fcbb9254e5c7619ce122b77e1b79cdceae2e71acec80f5d454ec2801"
+    },
+    {
+      "path": "ghidra/functions/ram_2297c.asm",
+      "bytes": 3565,
+      "sha256": "49c600447866addef23b5d35e04e16a240e1239ac13094a34154ada38ae2bc09"
+    },
+    {
+      "path": "ghidra/functions/ram_2297c.c",
+      "bytes": 1421,
+      "sha256": "0d0c2c71a61755d3032ced4d05a018856cef1e581e9f493ad3a88e15a5d5ac85"
+    },
+    {
+      "path": "ghidra/functions/ram_22ad0.asm",
+      "bytes": 1553,
+      "sha256": "f91d54afff90790689536a5e055adefc7887fbd3d7dfd7976f09d4677ee66e63"
+    },
+    {
+      "path": "ghidra/functions/ram_22ad0.c",
+      "bytes": 630,
+      "sha256": "06e9cb78826a7216b8c0ffa5e0c5cdb9d85c6b65696cdcfbddff55a28cb690ad"
+    },
+    {
+      "path": "ghidra/functions/ram_22b58.asm",
+      "bytes": 1559,
+      "sha256": "df975c05026944b774eca79e986dc2c612b464bd6fb61487c1d2471cb1a0d08f"
+    },
+    {
+      "path": "ghidra/functions/ram_22b58.c",
+      "bytes": 635,
+      "sha256": "5d1a1ead1f15f28f2dd15dec2d1c0b9f11b35c2dae258d353bf8c43513279561"
+    },
+    {
+      "path": "ghidra/functions/ram_22be0.asm",
+      "bytes": 5073,
+      "sha256": "aba3b5baa2914c0f6c5ba477e143fa0ea6bc76df2a5c46fad8754fbde0d50a17"
+    },
+    {
+      "path": "ghidra/functions/ram_22be0.c",
+      "bytes": 2028,
+      "sha256": "71040c5fd29f397de53d04053739e94ae62a8c1c14c808d4f3568ca5d4e8635b"
+    },
+    {
+      "path": "ghidra/functions/ram_22dd8.asm",
+      "bytes": 4699,
+      "sha256": "a7b2c9a1b015de20e23cf34f7162d3d66118e9feb4a06d8896f3de15fa336818"
+    },
+    {
+      "path": "ghidra/functions/ram_22dd8.c",
+      "bytes": 1361,
+      "sha256": "2f0eb527c0e1c45ee7c2bcb2b9ea6289caa20b62fb43634a42e366b273984faf"
+    },
+    {
+      "path": "ghidra/functions/ram_22f38.asm",
+      "bytes": 5695,
+      "sha256": "c9512f36d98007c5c325c834b6198555ee58e49152540a20fa04fc7896e28d96"
+    },
+    {
+      "path": "ghidra/functions/ram_22f38.c",
+      "bytes": 5425,
+      "sha256": "9d580ae2c753615bc5b0c034bd45c158da512549490e90bed23817a444b224df"
+    },
+    {
+      "path": "ghidra/functions/ram_23130.asm",
+      "bytes": 24336,
+      "sha256": "d1fd237cde5f58d1782c328536f0c8ed8f4b0cce6c2f00a1fa718672fce36755"
+    },
+    {
+      "path": "ghidra/functions/ram_23130.c",
+      "bytes": 62358,
+      "sha256": "1783fce0fddf80ee2ea1094d56f592c77cfc17bbf21373172b031ab9d70b0ad8"
+    },
+    {
+      "path": "ghidra/functions/ram_23a60.asm",
+      "bytes": 2043,
+      "sha256": "a322a754275ab6122b9cfefcf88f099201afdfcf9e0843a566653c9d222a58d4"
+    },
+    {
+      "path": "ghidra/functions/ram_23a60.c",
+      "bytes": 804,
+      "sha256": "659f2d38535811293c9d2bd40db55d7df9f6aaca232dd47695f3ca39eda38912"
+    },
+    {
+      "path": "ghidra/functions/ram_23b14.asm",
+      "bytes": 6987,
+      "sha256": "2deb21b3ea225891b9ec06645bab3fd9e03523219b1ff155fc9c9d1d3ef698f7"
+    },
+    {
+      "path": "ghidra/functions/ram_23b14.c",
+      "bytes": 3879,
+      "sha256": "07a291e7a2849df5d6160fd25a93c47feca1cdd64cc793c635b14772bea0aa66"
+    },
+    {
+      "path": "ghidra/functions/ram_23d8c.asm",
+      "bytes": 832,
+      "sha256": "c644653b3cfc77d6a678f0b699692bb595d70d8dbe5a4cb859b43829c1d798de"
+    },
+    {
+      "path": "ghidra/functions/ram_23d8c.c",
+      "bytes": 816,
+      "sha256": "583093981ce36d49e45d210b347bfb8e6d3deddb44f05d5d625bcedd75592283"
+    },
+    {
+      "path": "ghidra/functions/ram_23dc8.asm",
+      "bytes": 1201,
+      "sha256": "cdb91ad909a0f591b240e189271192aeeee648707760e76095c16313846a2cac"
+    },
+    {
+      "path": "ghidra/functions/ram_23dc8.c",
+      "bytes": 1021,
+      "sha256": "92f5d7be99ea82457d3c337d63a6d7b4d0939b098a35240bfbaa1a3baf985314"
+    },
+    {
+      "path": "ghidra/functions/ram_23e34.asm",
+      "bytes": 2521,
+      "sha256": "4ae9e1300cf402a37bf1912d283b9a5b6552c9f6e8396ee4186bf67b00c6c2c9"
+    },
+    {
+      "path": "ghidra/functions/ram_23e34.c",
+      "bytes": 1336,
+      "sha256": "aa1c801f2cfa22ab02b534e7e5ebf01b8eec983f3804fd520fc0bec1fda55767"
+    },
+    {
+      "path": "ghidra/functions/ram_23f14.asm",
+      "bytes": 1748,
+      "sha256": "1484f8c9c553a4f15d51ba5d4ab4658f1e4e0721eda2c9588852ba72d359d8a8"
+    },
+    {
+      "path": "ghidra/functions/ram_23f14.c",
+      "bytes": 913,
+      "sha256": "ec51a385d643f9b472cdfc48a850269c322068a49c3715371b4a6dec8e5acd2b"
+    },
+    {
+      "path": "ghidra/functions/ram_23fc8.asm",
+      "bytes": 17730,
+      "sha256": "115c5496eac0c897cbabaaf4bbc4d2c62c1dec1b88aeb0515a865e44d68aaeb1"
+    },
+    {
+      "path": "ghidra/functions/ram_23fc8.c",
+      "bytes": 12012,
+      "sha256": "c3cf29590cb51ebb89ca1d6402fe21c34ebffebb7b3024b7c1b539173f7a1aeb"
+    },
+    {
+      "path": "ghidra/functions/ram_24610.asm",
+      "bytes": 6083,
+      "sha256": "12bd82f707baacbea785eb1cc5cd2812a4ead72bce4798040aeb25146ec2d5b8"
+    },
+    {
+      "path": "ghidra/functions/ram_24610.c",
+      "bytes": 2493,
+      "sha256": "6dc700c55b1b001a77a3842a9fa35c7b5bfdce876cc2afd1b537417f822468dd"
+    },
+    {
+      "path": "ghidra/functions/ram_24818.asm",
+      "bytes": 1979,
+      "sha256": "7c3063f9c83c483a909e05cafcfdd269dcff1dc7937a2fcdd95619357590df2c"
+    },
+    {
+      "path": "ghidra/functions/ram_24818.c",
+      "bytes": 847,
+      "sha256": "ce993de0c1010d7dfa1bbbfc68be688587d418b4b36fec4b0c726d46ad38268a"
+    },
+    {
+      "path": "ghidra/functions/ram_248b4.asm",
+      "bytes": 1891,
+      "sha256": "8fbae307e77f089bb1349438bfc6ebb8920e40655c5af2e67aa3b355650dfedf"
+    },
+    {
+      "path": "ghidra/functions/ram_248b4.c",
+      "bytes": 1075,
+      "sha256": "a05eb138bb793577922a6e37223b0135119e909ae3815565c3c4466d44eeed97"
+    },
+    {
+      "path": "ghidra/functions/ram_2495c.asm",
+      "bytes": 1594,
+      "sha256": "814bec32adc40a82e8446c7cbbfa9a188f72a0fdb0e1cc56720eb6ff1162b3c8"
+    },
+    {
+      "path": "ghidra/functions/ram_2495c.c",
+      "bytes": 903,
+      "sha256": "9d321b3e850063d8c6d3ac5862afc8b82945abb05d71a3e576c4b0047c86e2f7"
+    },
+    {
+      "path": "ghidra/functions/ram_249f0.asm",
+      "bytes": 6045,
+      "sha256": "0a46fdb9932cf4886e90285cfd966441a7a94de408cbbffb20e1e246a09d62c3"
+    },
+    {
+      "path": "ghidra/functions/ram_249f0.c",
+      "bytes": 2712,
+      "sha256": "0385d1f61da853d88ed86eb0717fea50b8557256e475d8b9788d15bf23398657"
+    },
+    {
+      "path": "ghidra/functions/ram_24c00.asm",
+      "bytes": 5780,
+      "sha256": "093e03b3b129a7335938a7006b1ef7f21bffb4d9f06a0f4aeacf838b933b80cb"
+    },
+    {
+      "path": "ghidra/functions/ram_24c00.c",
+      "bytes": 2803,
+      "sha256": "6abeeb0bf3e7bfbf97ae3074177fecdb1adcf64f94926b7d7513772508913380"
+    },
+    {
+      "path": "ghidra/functions/ram_24e14.asm",
+      "bytes": 2012,
+      "sha256": "88d5d027f5df777fafa47db9ec5015c5ca0722f67d0a9400ad2b2ac22a286969"
+    },
+    {
+      "path": "ghidra/functions/ram_24e14.c",
+      "bytes": 900,
+      "sha256": "7959655dfbb24d8f2fa5ce6d9f7e86ea5772f1b79bef2be507ea3ec6bc4ba10e"
+    },
+    {
+      "path": "ghidra/functions/ram_24ec8.asm",
+      "bytes": 2000,
+      "sha256": "616df8ed3391eea98ed97688306f933ae289ee06705b57bf50c312b5e4789e9f"
+    },
+    {
+      "path": "ghidra/functions/ram_24ec8.c",
+      "bytes": 1138,
+      "sha256": "2057af502f2c198cb23e54d2cde8cd2838f093f194c432129b8f9c12b4884a3f"
+    },
+    {
+      "path": "ghidra/functions/ram_24f6c.asm",
+      "bytes": 7368,
+      "sha256": "f436df9083f380d7852954a23f68b13d24b22e16580ee8877f21431bdbc4db1c"
+    },
+    {
+      "path": "ghidra/functions/ram_24f6c.c",
+      "bytes": 3691,
+      "sha256": "78ab90466afd4f508cce1f9898f5af0aaa09e31e986c792b8e59ab3f91f7af79"
+    },
+    {
+      "path": "ghidra/functions/ram_251ec.asm",
+      "bytes": 1761,
+      "sha256": "4d16f025b97e4f821dec6fc0a79ba8d3c686cf0adbea97009c61e1ca9f1a3585"
+    },
+    {
+      "path": "ghidra/functions/ram_251ec.c",
+      "bytes": 881,
+      "sha256": "674efab1096db3eaf3db37f7c12d64e4192846f0c304ed2515ad3d8a405a4054"
+    },
+    {
+      "path": "ghidra/functions/ram_25278.asm",
+      "bytes": 2798,
+      "sha256": "50cc51bca2078ad8d3a0cb9a8329704023b4adaa5754e412eca3b964ec73ba62"
+    },
+    {
+      "path": "ghidra/functions/ram_25278.c",
+      "bytes": 1412,
+      "sha256": "aa48987cffa4093034b0df7e2e2a3ce844c4209dd7c77399b97166ae1c9c998d"
+    },
+    {
+      "path": "ghidra/functions/ram_25368.asm",
+      "bytes": 5455,
+      "sha256": "45e1a419d6dcac6726f1591513d735a692d0c6de21fa6129cfe4d71f3e7da175"
+    },
+    {
+      "path": "ghidra/functions/ram_25368.c",
+      "bytes": 2195,
+      "sha256": "592eb20274cb97ff8de8552607759cc06903639f55354216661ee5a0525a21e9"
+    },
+    {
+      "path": "ghidra/functions/ram_25538.asm",
+      "bytes": 8356,
+      "sha256": "b780ddbcfc009144386f489c5d6c19febb9f69654cff1e238923f9206219a5f6"
+    },
+    {
+      "path": "ghidra/functions/ram_25538.c",
+      "bytes": 4087,
+      "sha256": "6d5b6a1519e156e05baa3512bb79b82c2d821b47abc00ef7241fcc9bf9c53350"
+    },
+    {
+      "path": "ghidra/functions/ram_2587c.asm",
+      "bytes": 3087,
+      "sha256": "757e9fe900790919112c79ee6018a1ae5c94d0181ee64fdc7998b9e50cd9d9e3"
+    },
+    {
+      "path": "ghidra/functions/ram_2587c.c",
+      "bytes": 1704,
+      "sha256": "9d94b71fa19a23a9ef36266d30a548ac649f0d2d4268a73339a7830dbd17201b"
+    },
+    {
+      "path": "ghidra/functions/ram_25994.asm",
+      "bytes": 4576,
+      "sha256": "ee4976553573447e7a7808e31fef9912701243b0a2362497c8f9a26d1ff6490f"
+    },
+    {
+      "path": "ghidra/functions/ram_25994.c",
+      "bytes": 3091,
+      "sha256": "86f34899d01258bdfd0519df448af8ad26a09e63e005a25193d5ba81797589da"
+    },
+    {
+      "path": "ghidra/functions/ram_25b14.asm",
+      "bytes": 1122,
+      "sha256": "7acfa708d27a5a1f4eeaeeab5778b473a539b2de7a019e21123dcb1167b858c8"
+    },
+    {
+      "path": "ghidra/functions/ram_25b14.c",
+      "bytes": 629,
+      "sha256": "3b88cf381e012487c72c970a77fd6109aaf563e68c9a26fb6099ea51f0fa19f9"
+    },
+    {
+      "path": "ghidra/functions/ram_25b70.asm",
+      "bytes": 1586,
+      "sha256": "8977f3107ed797d798fc17f9170b085e61ababf4b285d7a727f52cf5817ce46c"
+    },
+    {
+      "path": "ghidra/functions/ram_25b70.c",
+      "bytes": 816,
+      "sha256": "f1a34b5068f070c2ea866db88ea7247625c77857409d1994207b68649a24b983"
+    },
+    {
+      "path": "ghidra/functions/ram_25bec.asm",
+      "bytes": 4727,
+      "sha256": "92e6f771c2a88501499292347b928d440c6fd2d648f307965d1ba5a0396b0b45"
+    },
+    {
+      "path": "ghidra/functions/ram_25bec.c",
+      "bytes": 1756,
+      "sha256": "05bdb64ead07476dcb29f8b0aee91a3d1e382f7e1554a1273cf4312e48e8c9ba"
+    },
+    {
+      "path": "ghidra/functions/ram_25dd0.asm",
+      "bytes": 1557,
+      "sha256": "4ee7b9d32d86e7e17699c9d5c06daec76e3c8ffd1dd1533843a0c80c1e94c0e2"
+    },
+    {
+      "path": "ghidra/functions/ram_25dd0.c",
+      "bytes": 917,
+      "sha256": "a4348607eab5f07e400c21c60ca42eede091e90e978ab4b21c7b83341d92f402"
+    },
+    {
+      "path": "ghidra/functions/ram_25e54.asm",
+      "bytes": 931,
+      "sha256": "ddab9151bab659b0cb75709a35ed11e62c52fc6f5550abdcbb2856bed1122e67"
+    },
+    {
+      "path": "ghidra/functions/ram_25e54.c",
+      "bytes": 526,
+      "sha256": "be06f7e6376058332ee777372f8386324f2cbc2e6ac644e40aca10c4f977af8f"
+    },
+    {
+      "path": "ghidra/functions/ram_25ea4.asm",
+      "bytes": 1185,
+      "sha256": "08ce4b111879719b53a62279e986b3e96ce119fd6c46280dddd927e9d1bc240e"
+    },
+    {
+      "path": "ghidra/functions/ram_25ea4.c",
+      "bytes": 766,
+      "sha256": "9cdf27b1d6ea0b94bf6e5a2992d174ecef3fce2ebdfc17c4bc4090fc27805ee2"
+    },
+    {
+      "path": "ghidra/functions/ram_25f18.asm",
+      "bytes": 1378,
+      "sha256": "e938b7421a2c92bc86b8680c8f636bc8fb2fa062cf240dcd5b48b8f86aa7cb2d"
+    },
+    {
+      "path": "ghidra/functions/ram_25f18.c",
+      "bytes": 808,
+      "sha256": "cd2a02c14bfd408e0e1597c8c16cf61676058156420b8cc0a4acbdeffddbd3bb"
+    },
+    {
+      "path": "ghidra/functions/ram_266a0.asm",
+      "bytes": 1873,
+      "sha256": "9cf4da17a68f5a07dca30d6adf8cf865005252a7d3e7297e9fb54c09f7a9aad7"
+    },
+    {
+      "path": "ghidra/functions/ram_266a0.c",
+      "bytes": 742,
+      "sha256": "e35198a98733bb8055ba0ad224b7648dcc15ebd4a8182b52d447ae5ef950d418"
+    },
+    {
+      "path": "ghidra/functions/ram_2673c.asm",
+      "bytes": 1841,
+      "sha256": "558113ce45046cc4c913bc633b9203c33ed2c703f098ba97baf5d82d66727a14"
+    },
+    {
+      "path": "ghidra/functions/ram_2673c.c",
+      "bytes": 717,
+      "sha256": "5fc12ce32a980fffc73addf16d96d7326ba0320eeece94b893903ec6689b9b32"
+    },
+    {
+      "path": "ghidra/functions/ram_267c8.asm",
+      "bytes": 2006,
+      "sha256": "c775b1087d67f509115b745f2d62fb295fd560826b6ebf5ae21ce4974b1658fd"
+    },
+    {
+      "path": "ghidra/functions/ram_267c8.c",
+      "bytes": 1079,
+      "sha256": "5600ae2482e9667c9aadb311ee0e404c4c445283035ef0eae6c27cc1fbfe32dd"
+    },
+    {
+      "path": "ghidra/functions/ram_26870.asm",
+      "bytes": 1746,
+      "sha256": "1c05d1b06a33b9c95ba45795634fb2d8121f4b888cd022a2afa8a0bd25a56d0c"
+    },
+    {
+      "path": "ghidra/functions/ram_26870.c",
+      "bytes": 850,
+      "sha256": "a5f60e1a4e90dae7e4b4bebfb65695c5c82ac18eee2a3335431d30dd2272d4b3"
+    },
+    {
+      "path": "ghidra/functions/ram_268f8.asm",
+      "bytes": 4798,
+      "sha256": "b5c4886a02717939076036eceb6ee1696545bd7806f0d762046ad66cdc1900f4"
+    },
+    {
+      "path": "ghidra/functions/ram_268f8.c",
+      "bytes": 2215,
+      "sha256": "c41febddabb3adcad97a8af8a121ceaa31442e284191dc32495ffbd4b814a81d"
+    },
+    {
+      "path": "ghidra/functions/ram_26a8c.asm",
+      "bytes": 897,
+      "sha256": "807c88a9f9a64df5f9e507acce57ced33ba299fbdcfe99742f53188531de4c2b"
+    },
+    {
+      "path": "ghidra/functions/ram_26a8c.c",
+      "bytes": 495,
+      "sha256": "c35759923cfe9d24c9e3a39d39a5cf313ea16a67c1a04258c73672effb2b5604"
+    },
+    {
+      "path": "ghidra/functions/ram_26acc.asm",
+      "bytes": 1084,
+      "sha256": "96a9e73be53b2b58d7b1d75896821a7492dc53dd1653668b9f28217b2f3f69df"
+    },
+    {
+      "path": "ghidra/functions/ram_26acc.c",
+      "bytes": 599,
+      "sha256": "3da4fe346d80b19be1aac5c032198ae059019c3daec38c03988dff3d0a8cdc2f"
+    },
+    {
+      "path": "ghidra/functions/ram_26b24.asm",
+      "bytes": 3998,
+      "sha256": "dbe303ccf78c8c66a1ca65392dd7009688229ba74d76d055f161c4d6d669c9d5"
+    },
+    {
+      "path": "ghidra/functions/ram_26b24.c",
+      "bytes": 1789,
+      "sha256": "3412f2aa50eb79f842aeac45e8e6f99342fa3acede0acb8436c80c23ba093cee"
+    },
+    {
+      "path": "ghidra/functions/ram_26c9c.asm",
+      "bytes": 1778,
+      "sha256": "7f114465e60eca7fbb66e34d057b1703133ad1d1df4fde9ed069b0c27ed1d896"
+    },
+    {
+      "path": "ghidra/functions/ram_26c9c.c",
+      "bytes": 642,
+      "sha256": "7b9f77d89be125e0f1e4e0bc5a04778c16923363066610f48f9b139ed776e50a"
+    },
+    {
+      "path": "ghidra/functions/ram_26d2c.asm",
+      "bytes": 343,
+      "sha256": "8a162cd6d6d36622d15d05f46ec7df3378c093858ad2658b0f0b9785b84d9b63"
+    },
+    {
+      "path": "ghidra/functions/ram_26d2c.c",
+      "bytes": 206,
+      "sha256": "9f8723070449eae68c435dd4a03512f8e6df2288d4996453d76f2d85730b4bd9"
+    },
+    {
+      "path": "ghidra/functions/ram_26d3c.asm",
+      "bytes": 343,
+      "sha256": "e1b85ee2bb4725c09a37e649df5469a7aee3bb4e4b1ccd574d980afaa588f533"
+    },
+    {
+      "path": "ghidra/functions/ram_26d3c.c",
+      "bytes": 206,
+      "sha256": "c8bb1906e222417c26e9f6561a66aa17e0330d67e6b956a54efa8a84ddf9f5fa"
+    },
+    {
+      "path": "ghidra/functions/ram_2738c.asm",
+      "bytes": 514,
+      "sha256": "145bb2bff0887e82b845940ac0d93a1b02ea77cc7c05349faf95776bb7fa295c"
+    },
+    {
+      "path": "ghidra/functions/ram_2738c.c",
+      "bytes": 250,
+      "sha256": "6a378b8adb85c39ecdf2cf978633d0d33f69f348150b913a7ed3664d84720456"
+    },
+    {
+      "path": "ghidra/functions/ram_273ac.asm",
+      "bytes": 206,
+      "sha256": "a68e49e302c81c1b2a58368d165f57b0d7a5547ccdb8e8e4b0f2797c81ceba23"
+    },
+    {
+      "path": "ghidra/functions/ram_273ac.c",
+      "bytes": 179,
+      "sha256": "8b53bf1e4466aa67a3413adfdc3b9c9b43cc41292462cf04b15c58626602a9d3"
+    },
+    {
+      "path": "ghidra/functions/ram_273c4.asm",
+      "bytes": 1086,
+      "sha256": "52cd7e6b9a12dbc0de9c3819c606531964e87714b306c239c4094ea3deb6a319"
+    },
+    {
+      "path": "ghidra/functions/ram_273c4.c",
+      "bytes": 726,
+      "sha256": "9ad71300551181152bf025712f455de581d15a7827f7c3a9dbdcea3e9fde4c0c"
+    },
+    {
+      "path": "ghidra/functions/ram_27424.asm",
+      "bytes": 2269,
+      "sha256": "f78dd91a78da6c99d2900f154a123abe6468af8b2c0df8884d046eee2223dc98"
+    },
+    {
+      "path": "ghidra/functions/ram_27424.c",
+      "bytes": 1563,
+      "sha256": "c7aac4f216d77f3cdefd0f1e01faa45616b6e4712d33f8f7d9d1662db8fdc72d"
+    },
+    {
+      "path": "ghidra/functions/ram_274f8.asm",
+      "bytes": 2935,
+      "sha256": "3a6bbbb1653a7acc69b73832945f6f5ec00e0e454f70b0145a004b6a77149fc3"
+    },
+    {
+      "path": "ghidra/functions/ram_274f8.c",
+      "bytes": 1345,
+      "sha256": "0b3a1ca093a8dc76c23580628ab3abed4aba7e34b016d1770a4dc0caea3a315a"
+    },
+    {
+      "path": "ghidra/functions/ram_27670.asm",
+      "bytes": 3989,
+      "sha256": "886cb311f5c9b02ba57e52f2df9d6c669b96174cbd71cbb9fc0de558b192e1b9"
+    },
+    {
+      "path": "ghidra/functions/ram_27670.c",
+      "bytes": 2306,
+      "sha256": "b5472ff2d976a757126e30ebac19681d88413d27c1a4f7dac44fda4137f534ba"
+    },
+    {
+      "path": "ghidra/functions/ram_277b8.asm",
+      "bytes": 1233,
+      "sha256": "d9a6a5fc844eb43c11cb797f1d03cf755630f5f0aabc2fc92bc0702396e3892d"
+    },
+    {
+      "path": "ghidra/functions/ram_277b8.c",
+      "bytes": 806,
+      "sha256": "2d104c2938cc3c197ff97d9f2741d1910fa7f4cc33377af9cc7026a0c9060f7a"
+    },
+    {
+      "path": "ghidra/functions/ram_27828.asm",
+      "bytes": 1448,
+      "sha256": "46bfef3ac82e34966f44c67594db3ce521b162a28f0c23b4e61ae6fa2e46f0f3"
+    },
+    {
+      "path": "ghidra/functions/ram_27828.c",
+      "bytes": 934,
+      "sha256": "d049bcf81ef8ff808ba1d26b9f7d4a25a96d845d69a0114932d0b852e1af2046"
+    },
+    {
+      "path": "ghidra/functions/ram_278ac.asm",
+      "bytes": 1418,
+      "sha256": "eaec8f72e8fdadc5fd9b6062dc00ba1f873596c41361cc7927350adb07ea56de"
+    },
+    {
+      "path": "ghidra/functions/ram_278ac.c",
+      "bytes": 931,
+      "sha256": "1edef633c1bb8f667a03a0f450c009079476f1def25b9c234001384261f0d189"
+    },
+    {
+      "path": "ghidra/functions/ram_2792c.asm",
+      "bytes": 834,
+      "sha256": "d066c5c000ca59acae586e0ba7a09f9106579bb5b6ade3d77f77e415d7d7aa39"
+    },
+    {
+      "path": "ghidra/functions/ram_2792c.c",
+      "bytes": 523,
+      "sha256": "e9a2dc0ddcb7b3882b3564f803c9bb2de32b32de402959d12e7df69b8caef9f0"
+    },
+    {
+      "path": "ghidra/functions/ram_27970.asm",
+      "bytes": 1418,
+      "sha256": "4734393fa5a229d38bec30eae681872f4adc0262a800eb2eafebafd67d22b2cb"
+    },
+    {
+      "path": "ghidra/functions/ram_27970.c",
+      "bytes": 931,
+      "sha256": "31fec25806461e30973fc0e384d0a4f78e75717f66ae8f27b9a519b13a876f1c"
+    },
+    {
+      "path": "ghidra/functions/ram_279f0.asm",
+      "bytes": 819,
+      "sha256": "a8ce9d6a986a1789ea8e558a72c09006ae457f9f62f1775ce2c1fe292820f0e0"
+    },
+    {
+      "path": "ghidra/functions/ram_279f0.c",
+      "bytes": 355,
+      "sha256": "01c17be6b63d95637da84b5756789bba461a4d10c8f2a6daa3d8214506f63bc4"
+    },
+    {
+      "path": "ghidra/functions/ram_27a28.asm",
+      "bytes": 159,
+      "sha256": "2c9e0d7db82f6358f32aa4888b52c01783c188becc3a085bab03b771109d9a06"
+    },
+    {
+      "path": "ghidra/functions/ram_27a28.c",
+      "bytes": 156,
+      "sha256": "b03302f4e311060346593a40af03977c2a166a72bdff99efb3455a56b704f6e3"
+    },
+    {
+      "path": "ghidra/functions/ram_27a2c.asm",
+      "bytes": 6137,
+      "sha256": "17e170450835117d1c3ac704a18c47b5535eff3f00b6a42efafbf0ea6ba10302"
+    },
+    {
+      "path": "ghidra/functions/ram_27a2c.c",
+      "bytes": 3788,
+      "sha256": "c954add9b9fa36d566bdadf79cc0c621f9b53ccf71d8467d271cf9bfa92b062b"
+    },
+    {
+      "path": "ghidra/functions/ram_27c90.asm",
+      "bytes": 1888,
+      "sha256": "a3aaca3d4970b9df524286dea22eaf3a491af50f428428c115c17e575f77582c"
+    },
+    {
+      "path": "ghidra/functions/ram_27c90.c",
+      "bytes": 1084,
+      "sha256": "99a4308cf3c4e6836e5e003dd570e2fe0879104211ea2be4fb153f547ebf07e3"
+    },
+    {
+      "path": "ghidra/functions/ram_27d34.asm",
+      "bytes": 2613,
+      "sha256": "7e90c48d9d9d81bbf80b45c031386cf3b1ea0245762beadf272cf8199e74a8f3"
+    },
+    {
+      "path": "ghidra/functions/ram_27d34.c",
+      "bytes": 1638,
+      "sha256": "7d4b3477dcc7c913ee21d7ce774d10d30289b3955b5485b972e964327cf25857"
+    },
+    {
+      "path": "ghidra/functions/ram_27e1c.asm",
+      "bytes": 466,
+      "sha256": "063d504a2718f749fd7beae9962e8e19c09a353325c5bd80ff3f2e7bbf865769"
+    },
+    {
+      "path": "ghidra/functions/ram_27e1c.c",
+      "bytes": 246,
+      "sha256": "cc7bde370c8dfd875c7d2907e6a117063e889d4ecb7c317abe6c186e6d0758c2"
+    },
+    {
+      "path": "ghidra/functions/ram_28478.asm",
+      "bytes": 1273,
+      "sha256": "b8d19f578b8ad1c69c0cba7a9867ae82e1c36e0b52f907549ce81a0924c1c71f"
+    },
+    {
+      "path": "ghidra/functions/ram_28478.c",
+      "bytes": 957,
+      "sha256": "ce5c316fe7822ee67ee939dd3adf1b805d029228427f001beb846ea0a568f6f7"
+    },
+    {
+      "path": "ghidra/functions/ram_284e4.asm",
+      "bytes": 565,
+      "sha256": "b489f4b2114c0ce89df575dad3acccb9ab37358446ca0292c40e1b181cd2d0b8"
+    },
+    {
+      "path": "ghidra/functions/ram_284e4.c",
+      "bytes": 527,
+      "sha256": "42a1043021e420e28647b87c8b0b03345015890a94f10564dc01dd9b7e1057a4"
+    },
+    {
+      "path": "ghidra/functions/ram_2850c.asm",
+      "bytes": 539,
+      "sha256": "6ce000eeeb423d987556512cb4e93c38f69ac94f9f07f6afdb3e87529030f067"
+    },
+    {
+      "path": "ghidra/functions/ram_2850c.c",
+      "bytes": 365,
+      "sha256": "b2633df6eb75f0449a78ba3ec3ef2970d2b32772e52e8157e9d41cd89abd2d01"
+    },
+    {
+      "path": "ghidra/functions/ram_28530.asm",
+      "bytes": 290,
+      "sha256": "c38c46c57b5921f7970949df8e7e4ab7083f88378be310fb40eed9ae47f47adb"
+    },
+    {
+      "path": "ghidra/functions/ram_28530.c",
+      "bytes": 186,
+      "sha256": "17aa0cdb1bd1f5b5db6d5694f79e238cdf6bc270638c9805bce708f3f2bf328d"
+    },
+    {
+      "path": "ghidra/functions/ram_28cac.asm",
+      "bytes": 3503,
+      "sha256": "d38ef75aee5b40f7069098a285e1ac0bb51c18092d2d18eae91fc432c1742daa"
+    },
+    {
+      "path": "ghidra/functions/ram_28cac.c",
+      "bytes": 1251,
+      "sha256": "54e0d19bae695c0409b523e45b558625c0660081ca4330874bf319eb6d87d58c"
+    },
+    {
+      "path": "ghidra/functions/ram_28df8.asm",
+      "bytes": 683,
+      "sha256": "482f1d0da2c1d8c8e5b5edad5d10b06ee18a328d45e148221721e8708441157c"
+    },
+    {
+      "path": "ghidra/functions/ram_28df8.c",
+      "bytes": 445,
+      "sha256": "f9c65209ee23ee30766065f6c550448f9e004f8a5d9d909c5eade96e57915572"
+    },
+    {
+      "path": "ghidra/functions/ram_28e2c.asm",
+      "bytes": 1157,
+      "sha256": "229b959a97628a55958f0847a0bbf6e5f43782a048e2380bd8470a3a09d749c0"
+    },
+    {
+      "path": "ghidra/functions/ram_28e2c.c",
+      "bytes": 647,
+      "sha256": "845f94365c314095e1130f2763ea82fc0311a6912daab047154c47974aeec24f"
+    },
+    {
+      "path": "ghidra/functions/ram_28ea4.asm",
+      "bytes": 683,
+      "sha256": "fc6e5f7349f46c8cd3d7e91af9cc2c05548b3fb81b2f4f9827d03485368f8fcf"
+    },
+    {
+      "path": "ghidra/functions/ram_28ea4.c",
+      "bytes": 445,
+      "sha256": "a7ebf24058cf91cb4a644b65f62a6ee7d4625771bfad074980eb77e6bfaeb24a"
+    },
+    {
+      "path": "ghidra/functions/ram_28ed8.asm",
+      "bytes": 683,
+      "sha256": "0ec116eb77d28dbed00d223d3509338d23353fefc7f994ca303cea88a95c0756"
+    },
+    {
+      "path": "ghidra/functions/ram_28ed8.c",
+      "bytes": 445,
+      "sha256": "89ed95d27895b69d832fdb180ca9471cca3146a208b7ec8965733081cc159cd5"
+    },
+    {
+      "path": "ghidra/functions/ram_28f0c.asm",
+      "bytes": 683,
+      "sha256": "8d9cece3373962327871de1ed9973b93b6dd4b9c592ed9a2063a94f1a312dc13"
+    },
+    {
+      "path": "ghidra/functions/ram_28f0c.c",
+      "bytes": 445,
+      "sha256": "147920cab1ecbda83a899f65655a976ef3d9f1fdbca0238e98f0184a9f8f2ee8"
+    },
+    {
+      "path": "ghidra/functions/ram_28f40.asm",
+      "bytes": 683,
+      "sha256": "a606340229f6f420df0602cb17c4e11e5cec531db659a77b9ad47c03f3242015"
+    },
+    {
+      "path": "ghidra/functions/ram_28f40.c",
+      "bytes": 445,
+      "sha256": "34df69953d1562282b69f4e5d91690a1b98a93d09bef12b545b4be7b41b7205c"
+    },
+    {
+      "path": "ghidra/functions/ram_28f74.asm",
+      "bytes": 3542,
+      "sha256": "cc049635558e88a427928dbce16a883568fda7a371c2fabb99e2b572d845138d"
+    },
+    {
+      "path": "ghidra/functions/ram_28f74.c",
+      "bytes": 1236,
+      "sha256": "5c4796a8785ec6562f660e989528b8f3d3c6be05ef60a97b875b24580557ebe3"
+    },
+    {
+      "path": "ghidra/functions/ram_290b8.asm",
+      "bytes": 683,
+      "sha256": "dcf3ec9260dfeb26d944b43ab82310cef1b99d7e4e85fefa20d4db4bdc01558e"
+    },
+    {
+      "path": "ghidra/functions/ram_290b8.c",
+      "bytes": 447,
+      "sha256": "d6aece7036bb5e6cec8b44c5baa79f3b51a0d9b7411a0fd2d8d6a65a366d56ee"
+    },
+    {
+      "path": "ghidra/functions/ram_290ec.asm",
+      "bytes": 683,
+      "sha256": "71f51fd85708c54bb451cf157955cdfe406ed2ed6f49765319751b97af6278dd"
+    },
+    {
+      "path": "ghidra/functions/ram_290ec.c",
+      "bytes": 447,
+      "sha256": "33a6a6236ac8c43e500328675be6dd7327689ab34f9fd30aace0a4f35555ac50"
+    },
+    {
+      "path": "ghidra/functions/ram_29120.asm",
+      "bytes": 683,
+      "sha256": "546ed10b6ac3b70921a3242d9807f3fca02b26be4819de28022a91ed923a7c84"
+    },
+    {
+      "path": "ghidra/functions/ram_29120.c",
+      "bytes": 447,
+      "sha256": "27d1568f974f02c16adebca5884ec07cc4474809a3ea7883bc895706a5d9250c"
+    },
+    {
+      "path": "ghidra/functions/ram_29154.asm",
+      "bytes": 683,
+      "sha256": "74a9048586c510d01c69ed39fa3351e1993bbab6e365ce1b004bd12f77f1a003"
+    },
+    {
+      "path": "ghidra/functions/ram_29154.c",
+      "bytes": 447,
+      "sha256": "273c75fad5788e36ef8d0b11616c4ebcc7564696aa5c27f8311b1bd9099c868e"
+    },
+    {
+      "path": "ghidra/functions/ram_29188.asm",
+      "bytes": 683,
+      "sha256": "190bfde92f2046e97af2420b99b30dd8e5b1c7df5457e57a7189553a8f725bae"
+    },
+    {
+      "path": "ghidra/functions/ram_29188.c",
+      "bytes": 447,
+      "sha256": "38e012567db6dc165d54073c398040f29c2e667e4e992697efe3463345c57b41"
+    },
+    {
+      "path": "ghidra/functions/ram_291bc.asm",
+      "bytes": 684,
+      "sha256": "df17cef1cf1ef98c85d0079da75a1290155cd58687bb8de7cf4b2a4591f35f7a"
+    },
+    {
+      "path": "ghidra/functions/ram_291bc.c",
+      "bytes": 448,
+      "sha256": "8998bd2bbbbca9abfaa993c4ecac809cb75609221987754958fab58cac270b47"
+    },
+    {
+      "path": "ghidra/functions/ram_291f0.asm",
+      "bytes": 1636,
+      "sha256": "a2058530c242c68d9289ea40c2faefad14ae1fd372a63ca69e4c1cd4ddee47e0"
+    },
+    {
+      "path": "ghidra/functions/ram_291f0.c",
+      "bytes": 554,
+      "sha256": "ce747b42dfda6523cc73a7e36655360f07e4513d3fc768459fdc43e792809391"
+    },
+    {
+      "path": "ghidra/functions/ram_2927c.asm",
+      "bytes": 684,
+      "sha256": "dcc34eab68b2dcc887153c726af53f6e205391568a9d17f4ade4bc56c9f4332f"
+    },
+    {
+      "path": "ghidra/functions/ram_2927c.c",
+      "bytes": 448,
+      "sha256": "eaae81e4a37b88bf5cd9704a0eb4c587cfabd606a4d10b56ead8a71e5d1513df"
+    },
+    {
+      "path": "ghidra/functions/ram_292b0.asm",
+      "bytes": 3135,
+      "sha256": "1be168b679223d150fdc055f536470306b2c876eeb52a5848566b39b299f0a5a"
+    },
+    {
+      "path": "ghidra/functions/ram_292b0.c",
+      "bytes": 1006,
+      "sha256": "7b31538fe54b771ce9d133ad979fa8b448ec95f3426ae0561d784ab659b4ce18"
+    },
+    {
+      "path": "ghidra/functions/ram_293c8.asm",
+      "bytes": 755,
+      "sha256": "9aa8dd014648a28ecb92a738768f773effcef8058de499b31335a8f84d41fc0f"
+    },
+    {
+      "path": "ghidra/functions/ram_293c8.c",
+      "bytes": 474,
+      "sha256": "a43eff7455e979670236cbcab93d9989efaf29ff4ce60f936d1a7d025b0aa936"
+    },
+    {
+      "path": "ghidra/functions/ram_29400.asm",
+      "bytes": 684,
+      "sha256": "15f1facd07477edf893fb2f8af38fe2b6804f78b447abf9720af1ca6d5471cec"
+    },
+    {
+      "path": "ghidra/functions/ram_29400.c",
+      "bytes": 448,
+      "sha256": "aa13bc6839418261518de04750b78d2fe68a935b40b31eb2d4a6177784308136"
+    },
+    {
+      "path": "ghidra/functions/ram_29434.asm",
+      "bytes": 684,
+      "sha256": "4416bbfba8ae6cf29cef3f35c5058997d289e0444a299eb0b9fdd27980e6acae"
+    },
+    {
+      "path": "ghidra/functions/ram_29434.c",
+      "bytes": 448,
+      "sha256": "63d4fa643da4612fd4b81e6395eaa7ca95e575bbd412eab1305402daffd3bc5a"
+    },
+    {
+      "path": "ghidra/functions/ram_29468.asm",
+      "bytes": 684,
+      "sha256": "991a105695fc9b5c17728a95e44982eacae535e382a5cb7e331b77cbff7dda93"
+    },
+    {
+      "path": "ghidra/functions/ram_29468.c",
+      "bytes": 448,
+      "sha256": "d365daf0057dcf2b8a3f3fccf9cd7b2cd7b5599111b6e3415c3cb38cc07cdde2"
+    },
+    {
+      "path": "ghidra/functions/ram_2949c.asm",
+      "bytes": 684,
+      "sha256": "e6d5d148443c4aef734d5e34934f6e62c90d502ef61af677ec131d148fdb02d4"
+    },
+    {
+      "path": "ghidra/functions/ram_2949c.c",
+      "bytes": 448,
+      "sha256": "0fb69c29730aaeff5c9756d861a166bcea798889fdb57fc2538957dc4e2b21a5"
+    },
+    {
+      "path": "ghidra/functions/ram_294d0.asm",
+      "bytes": 684,
+      "sha256": "c9dde1cf6c0efbedf31fe08bc112cf48e57e7694d47626d511a79f6cac3cc6d6"
+    },
+    {
+      "path": "ghidra/functions/ram_294d0.c",
+      "bytes": 448,
+      "sha256": "ede909fff11c1d696d653f330a9fee0bd0884bdd7528bba007089e3fcf19461e"
+    },
+    {
+      "path": "ghidra/functions/ram_29504.asm",
+      "bytes": 684,
+      "sha256": "bccd67efafa2d4d75c1a6721c7709220100f83dc85da96b35bc185aacd4b3a39"
+    },
+    {
+      "path": "ghidra/functions/ram_29504.c",
+      "bytes": 448,
+      "sha256": "d2ae5f4a11fbbf245f098b84dc7de7e58f82676af6807534ae0f02ad6eac327e"
+    },
+    {
+      "path": "ghidra/functions/ram_29538.asm",
+      "bytes": 684,
+      "sha256": "0181e5e62c0db6fd5e7cecb5728da8b1e8e9cf2c1678de7d4fc5139076123626"
+    },
+    {
+      "path": "ghidra/functions/ram_29538.c",
+      "bytes": 448,
+      "sha256": "0d7a821b6a6e8ff38725e17897da4a5b1061c993bf0a67cabb65b53315897cc7"
+    },
+    {
+      "path": "ghidra/functions/ram_2956c.asm",
+      "bytes": 684,
+      "sha256": "e940da0fa5616042d803c9813450ef736b2de7ed351b36c606bd0b491eddf1d8"
+    },
+    {
+      "path": "ghidra/functions/ram_2956c.c",
+      "bytes": 448,
+      "sha256": "0ccb4e0a41557190406b3c25cfacbf4587ad37bff30c4fe5e011a3cb19c4eb54"
+    },
+    {
+      "path": "ghidra/functions/ram_295a0.asm",
+      "bytes": 684,
+      "sha256": "7a5ddfb2e4959ca88f945ee51977717372761f806cfa766da13aa6a0ea972eb4"
+    },
+    {
+      "path": "ghidra/functions/ram_295a0.c",
+      "bytes": 448,
+      "sha256": "bf42059d81de865a529a6ff06b494fcd63c7fc2183857ffd21d7fae6c775dd6d"
+    },
+    {
+      "path": "ghidra/functions/ram_295d4.asm",
+      "bytes": 684,
+      "sha256": "2fcd3b281381522ded169551e84d9c10a5efaaa2746dd1bcf48cc181d6e63350"
+    },
+    {
+      "path": "ghidra/functions/ram_295d4.c",
+      "bytes": 448,
+      "sha256": "c1e7f321adf54a357f0e524e401cb4e5813374d0cba6434b25d56cfc5b02982a"
+    },
+    {
+      "path": "ghidra/functions/ram_29608.asm",
+      "bytes": 684,
+      "sha256": "23a42e5a1b7a3131a7b37ba28cac6a0e769e92e152ce0314be254696d4240367"
+    },
+    {
+      "path": "ghidra/functions/ram_29608.c",
+      "bytes": 448,
+      "sha256": "2ac9089e500d899d0cd573ddd7e7a0b3b10717c04022277b2ed77459514de439"
+    },
+    {
+      "path": "ghidra/functions/ram_2963c.asm",
+      "bytes": 586,
+      "sha256": "bd5c649e857a271e8fa046738b1710764e1a8b6924db1322506eaed2b8ed3069"
+    },
+    {
+      "path": "ghidra/functions/ram_2963c.c",
+      "bytes": 453,
+      "sha256": "241de54be265bfad9a11fd6849c318c2014cb1851c2a0a93e93f3ca1e3c651e3"
+    },
+    {
+      "path": "ghidra/functions/ram_2966c.asm",
+      "bytes": 1612,
+      "sha256": "c4214865a3197cb06f6de7a8a86a569a61a20a0e71b0d6a04ad680a84b02dc3b"
+    },
+    {
+      "path": "ghidra/functions/ram_2966c.c",
+      "bytes": 1244,
+      "sha256": "83befbf431c1badac4f2164858801c24230e76989e7cf2a635f0d73c3e70b263"
+    },
+    {
+      "path": "ghidra/functions/ram_29784.asm",
+      "bytes": 534,
+      "sha256": "892a05e9c419dc0b6d079ae60a6494227ee7e458adc274982a84a66bfceaf443"
+    },
+    {
+      "path": "ghidra/functions/ram_29784.c",
+      "bytes": 184,
+      "sha256": "efc38c7b8d15bdd8ef0ea5ecec303090fe68e2c29ad20e7ee8636bea327e38d2"
+    },
+    {
+      "path": "ghidra/functions/ram_297a8.asm",
+      "bytes": 213,
+      "sha256": "dba091c62663a45512e661c087442aa7fb481c1a7174b65a93e42cc108416e03"
+    },
+    {
+      "path": "ghidra/functions/ram_297a8.c",
+      "bytes": 156,
+      "sha256": "ecdc187465faf8aa5ad1498c9651e6f840b18a8fbb9414db57714f841b99ccc4"
+    },
+    {
+      "path": "ghidra/functions/ram_297b0.asm",
+      "bytes": 171,
+      "sha256": "d9357a8ff7c8c9e671f11458f1448ff1ff2bd446831b46bcdeb2ea445cb26ea9"
+    },
+    {
+      "path": "ghidra/functions/ram_297b0.c",
+      "bytes": 156,
+      "sha256": "0251b999cf14de04d46f54e4753ca42a5808f65acebe4a63404ca1f0bd3a7b5f"
+    },
+    {
+      "path": "ghidra/functions/ram_297b4.asm",
+      "bytes": 213,
+      "sha256": "ecbaac3b3fbfcb94736e6d0e3702f0dfe75a7e342458619605cca940d2208457"
+    },
+    {
+      "path": "ghidra/functions/ram_297b4.c",
+      "bytes": 156,
+      "sha256": "7e1ff4782786ee4340f3992d56d4f2f1a088445fca6d81eae1478e172775883d"
+    },
+    {
+      "path": "ghidra/functions/ram_297bc.asm",
+      "bytes": 213,
+      "sha256": "d86d9df86c3af1d60391cf10f421a781c64232901423b4c9d18ae461576f91e6"
+    },
+    {
+      "path": "ghidra/functions/ram_297bc.c",
+      "bytes": 156,
+      "sha256": "1eb9a5e9fb788b16e06b944b67d594ba9d614ccc9c7fb9fdb0aed58a74de2f6e"
+    },
+    {
+      "path": "ghidra/functions/ram_297c4.asm",
+      "bytes": 213,
+      "sha256": "12c72d585e4dafcb34b35fe03321a9a34f891f0db07a8b4801f9febb40c8113a"
+    },
+    {
+      "path": "ghidra/functions/ram_297c4.c",
+      "bytes": 156,
+      "sha256": "7506bc125087c74be9da6941a3b37c22598a378d69bedfe0e194b1b1087da755"
+    },
+    {
+      "path": "ghidra/functions/ram_297cc.asm",
+      "bytes": 171,
+      "sha256": "ab6aeb3561f0af5dda9bcd08ee1d1bb6ab057ac1a4022573ad151025959ae7ca"
+    },
+    {
+      "path": "ghidra/functions/ram_297cc.c",
+      "bytes": 156,
+      "sha256": "45a50fd02ecf631c05c11000f9208416aa2ea00ec4fd5b2d26a6a2ebf706e89d"
+    },
+    {
+      "path": "ghidra/functions/ram_297d0.asm",
+      "bytes": 171,
+      "sha256": "d210dd6199cef1b5fe8326e9dbcb31c829280786cde715bff4f4e7dc921fda7d"
+    },
+    {
+      "path": "ghidra/functions/ram_297d0.c",
+      "bytes": 156,
+      "sha256": "3b617d33d508bd568176072f39d12efe7d7180456a21ffada7517b448671cc66"
+    },
+    {
+      "path": "ghidra/functions/ram_297d4.asm",
+      "bytes": 246,
+      "sha256": "95aee0e92df530f7896d6db1d4e960ea555cf7329f0730dea8f05dc6dca6ce79"
+    },
+    {
+      "path": "ghidra/functions/ram_297d4.c",
+      "bytes": 156,
+      "sha256": "27ba5a58fed0b8a3abcf11efa366f6c9b68d2873f30e425692804db06ca83c6a"
+    },
+    {
+      "path": "ghidra/functions/ram_297ea.asm",
+      "bytes": 195,
+      "sha256": "09b8d034255ff67726c2c6bf4948d3a3a179d803b1fb2ef891b79048593a8426"
+    },
+    {
+      "path": "ghidra/functions/ram_297ea.c",
+      "bytes": 178,
+      "sha256": "dd5314eb47fbf26b7af6c61214be540fa1236edad744e607a3128b1a1b071f5a"
+    },
+    {
+      "path": "ghidra/functions/ram_297fa.asm",
+      "bytes": 195,
+      "sha256": "d24e4931184971605e678cd37ba744c0a76eedb1e5248aad5d00e43861ea95b7"
+    },
+    {
+      "path": "ghidra/functions/ram_297fa.c",
+      "bytes": 156,
+      "sha256": "2cd82f925e011e8e03101bfea0a5893e5ee0c388dea3f325060502ab2cb12df2"
+    },
+    {
+      "path": "ghidra/functions/ram_29800.asm",
+      "bytes": 227,
+      "sha256": "2009d28224d22e6ad9fe2dc33a1518e0d59660a6c319e067a7efc4360832de2e"
+    },
+    {
+      "path": "ghidra/functions/ram_29800.c",
+      "bytes": 156,
+      "sha256": "db39a3e461498e0bfe97dfdcc2de51c6b00aba0bd1106d1f305c7ca5e5cbe9ce"
+    },
+    {
+      "path": "ghidra/functions/ram_29810.asm",
+      "bytes": 227,
+      "sha256": "c7eaef9f3f9518df109e7e52bd155b2e1821b8d668bebd876e44a111c953bd61"
+    },
+    {
+      "path": "ghidra/functions/ram_29810.c",
+      "bytes": 156,
+      "sha256": "dc3508de6988cb37f3e842c4744db3db8e38b9dd898e0a25ac45b1ff52e82b6a"
+    },
+    {
+      "path": "ghidra/functions/ram_29820.asm",
+      "bytes": 227,
+      "sha256": "33cc37f7eb6c06b87d670b1cbc7e50706675e9fd8c738722cc48c77ee38b138b"
+    },
+    {
+      "path": "ghidra/functions/ram_29820.c",
+      "bytes": 156,
+      "sha256": "1ca5d618c049bf2a98b3ce3d46bd2375a50b4853b915f90c9b390acf7a0772a6"
+    },
+    {
+      "path": "ghidra/functions/ram_29830.asm",
+      "bytes": 227,
+      "sha256": "dd51401ed2a211bc61ff26e34acbe79bd551e51ccd4e74523532db110001c9bb"
+    },
+    {
+      "path": "ghidra/functions/ram_29830.c",
+      "bytes": 156,
+      "sha256": "806ee63d3398464f5be3729f6c1046e1fa7876dbbf02ad255efef0f607b3b055"
+    },
+    {
+      "path": "ghidra/functions/ram_29838.asm",
+      "bytes": 226,
+      "sha256": "3a6bc5d17ed876c234797aad1831c64e84213fea9718e54f812dd0d3e5baba35"
+    },
+    {
+      "path": "ghidra/functions/ram_29838.c",
+      "bytes": 156,
+      "sha256": "254f2070d68dc5d06f73b2114df2cb3e6e4864afe553641af4ae680dbe0473d6"
+    },
+    {
+      "path": "ghidra/functions/ram_29840.asm",
+      "bytes": 226,
+      "sha256": "f983d054a6b78b671705c5dd08c00e6f44d07828623c20684db6e1a2bac677bb"
+    },
+    {
+      "path": "ghidra/functions/ram_29840.c",
+      "bytes": 156,
+      "sha256": "ec816a3f77779b843ba4eb79e95a8f6851d03d67746ad09c005de1cc51672168"
+    },
+    {
+      "path": "ghidra/functions/ram_29848.asm",
+      "bytes": 226,
+      "sha256": "a60e5e01eb568763ef4d9637116f385e6d0628ff26adf14f66c33b885eb58a70"
+    },
+    {
+      "path": "ghidra/functions/ram_29848.c",
+      "bytes": 156,
+      "sha256": "dc8356c81d30841c1ac1594007b6622c09c36c36f0bd5df9880662f2562c6034"
+    },
+    {
+      "path": "ghidra/functions/ram_29852.asm",
+      "bytes": 706,
+      "sha256": "5369fa78a8e0f42ee8bcb13d256b016dce23006d1f4ba385c6df11126cf6bfe5"
+    },
+    {
+      "path": "ghidra/functions/ram_29852.c",
+      "bytes": 156,
+      "sha256": "00d25496b80f4d09256c7279c06bca3756edbfa19c3d9771c446abf020bc5665"
+    },
+    {
+      "path": "ghidra/functions/ram_29888.asm",
+      "bytes": 586,
+      "sha256": "07ac8ab1574dc881cebe1a0ba8cf7f37dc6d77e1bcc0eef85ad5c83a635ff0cc"
+    },
+    {
+      "path": "ghidra/functions/ram_29888.c",
+      "bytes": 558,
+      "sha256": "97e1b872bcc8b716bd080b91e4d0e2bf0b3ac26020f2c856015b51552f5d962b"
+    },
+    {
+      "path": "ghidra/functions/ram_29948.asm",
+      "bytes": 39779,
+      "sha256": "212aec082475e7ce030170aeb433f9e346119b0eb215d8925a95ca98a8cd8e51"
+    },
+    {
+      "path": "ghidra/functions/ram_29948.c",
+      "bytes": 57842,
+      "sha256": "cfcf1c5ff88e3f05c27edc266c9f3c367ff50f4e546068a5b07d70d3d5cf18ea"
+    },
+    {
+      "path": "ghidra/functions/ram_2a7f8.asm",
+      "bytes": 6232,
+      "sha256": "93c7ecf9f4420f7aee3ed62fc1708174836dead0d86c8e795b12f7afe69a736d"
+    },
+    {
+      "path": "ghidra/functions/ram_2a7f8.c",
+      "bytes": 9845,
+      "sha256": "7520c403703db86e4070b737b3e649402a9ba727d4773a48331efc2e2d7d78d7"
+    },
+    {
+      "path": "ghidra/functions/ram_2aa98.asm",
+      "bytes": 2857,
+      "sha256": "3eeb9954659a385f39ea40f548f07508f0f37511dd1c5ce9469e9d20df2b5d28"
+    },
+    {
+      "path": "ghidra/functions/ram_2aa98.c",
+      "bytes": 2443,
+      "sha256": "dd80521c1a9021a98433ffe411264f433574e024805421e3dc7b8e9cbd5077b0"
+    },
+    {
+      "path": "ghidra/functions/ram_2af30.asm",
+      "bytes": 11015,
+      "sha256": "5c6783ef03147a4a7bf8beab62a28c4ea5bbd5508e3c943a81e9b830955edf2d"
+    },
+    {
+      "path": "ghidra/functions/ram_2af30.c",
+      "bytes": 6507,
+      "sha256": "104998c1f476424ffc1e905c575697ac1643393d10f6dd58d4a28cccd39695e3"
+    },
+    {
+      "path": "ghidra/functions/ram_2b370.asm",
+      "bytes": 22117,
+      "sha256": "100ebd5b28dfed3d8369b122ec2e83500a2efaeb9af82306c69a74dcc7f2be6d"
+    },
+    {
+      "path": "ghidra/functions/ram_2b370.c",
+      "bytes": 21326,
+      "sha256": "cd629afc7e05cabdc53b1e44fc4cc28cc91e6dcd71eca15b8cf0093a01403b2c"
+    },
+    {
+      "path": "ghidra/functions/ram_2c248.asm",
+      "bytes": 5823,
+      "sha256": "b1ff28bdeaeb690b73928a11a653a782e39f1be5954212183c1e22c26d2370df"
+    },
+    {
+      "path": "ghidra/functions/ram_2c248.c",
+      "bytes": 3405,
+      "sha256": "820d90664fd8c072d5f4f0754b0baa32b09b4374a7c51f49b7df5503f63ddd93"
+    },
+    {
+      "path": "ghidra/functions/ram_2c4a8.asm",
+      "bytes": 1170,
+      "sha256": "abc3e1995e0815a6ecaaec36ff109f01357181d9de78f0347aaefa7228cd8336"
+    },
+    {
+      "path": "ghidra/functions/ram_2c4a8.c",
+      "bytes": 522,
+      "sha256": "40aa9dbbe10e9b2d67b00ea8b2bcb2e71440937c686a0926e76540a059f13d2d"
+    },
+    {
+      "path": "ghidra/functions/ram_2c514.asm",
+      "bytes": 1170,
+      "sha256": "fb0553bacdcd8adb23c5ac4920e7fde0257b5b634ef402697f01a66dc6dba77a"
+    },
+    {
+      "path": "ghidra/functions/ram_2c514.c",
+      "bytes": 522,
+      "sha256": "28e9949109938097b7ded5a8c671cd8a5679bfd94069e61385ad58bbb1ecda9e"
+    },
+    {
+      "path": "ghidra/functions/ram_2c580.asm",
+      "bytes": 2153,
+      "sha256": "3cc5c2ac3869a76522945dc487bf39df037147f765dd562989783ef200b4566a"
+    },
+    {
+      "path": "ghidra/functions/ram_2c580.c",
+      "bytes": 1516,
+      "sha256": "0980a859edcb7a18e7318295b3a59c1fe0a5c30109c6e4a63e3ab3a707808702"
+    },
+    {
+      "path": "ghidra/functions/ram_2c648.asm",
+      "bytes": 41163,
+      "sha256": "349704378101ba36b215cf9b1a8d5cdd3299fba3187c10198cef3044f2fdacc4"
+    },
+    {
+      "path": "ghidra/functions/ram_2c648.c",
+      "bytes": 41919,
+      "sha256": "059622d47a4f574461e96cd2778f99bc79ce6f7cd41067fa05ac6932c6116e91"
+    },
+    {
+      "path": "ghidra/functions/ram_2d564.asm",
+      "bytes": 18894,
+      "sha256": "1d2f4c7e5f85b6c85706a2a8835c891aa047a1687e48166f172f345587baa7e3"
+    },
+    {
+      "path": "ghidra/functions/ram_2d564.c",
+      "bytes": 16561,
+      "sha256": "351695ac3ea3ef19c19d598d369db303783d1b3f83745b6539999f54afbe5322"
+    },
+    {
+      "path": "ghidra/functions/ram_2dc34.asm",
+      "bytes": 81613,
+      "sha256": "8b68f202dcce3989aadc95f7e0e14869c76d013a9b278ca6cddcd262dbcc7ee5"
+    },
+    {
+      "path": "ghidra/functions/ram_2dc34.c",
+      "bytes": 111731,
+      "sha256": "4613eb87fa44757a25bf8cd30680fd24b0551d502ab3b272798d509ac7d6e627"
+    },
+    {
+      "path": "ghidra/functions/ram_2fa3c.asm",
+      "bytes": 3805,
+      "sha256": "5c7fdc5c8305f89e74e94cc3f70ad1630e43ad2db87370bb8f87c6c32650c568"
+    },
+    {
+      "path": "ghidra/functions/ram_2fa3c.c",
+      "bytes": 2154,
+      "sha256": "02f4dfa0e539f08415467e876c6752c6c167a9097a9472373bcdd5f68c1302a8"
+    },
+    {
+      "path": "ghidra/functions/ram_2fba0.asm",
+      "bytes": 3908,
+      "sha256": "abfd4b0d5b353642c40861020e9458329cca3d04f3cd238550b52d556dc43c97"
+    },
+    {
+      "path": "ghidra/functions/ram_2fba0.c",
+      "bytes": 2355,
+      "sha256": "d5adb938dbaf04270fecc75aa700eb4dbfeab02f7b16afd7ec74c40913504eb3"
+    },
+    {
+      "path": "ghidra/functions/ram_30360.asm",
+      "bytes": 797,
+      "sha256": "2cc1b4379213ceee18eebe1515475450a72382d45d8b82bc903b5ba6c18d9cb2"
+    },
+    {
+      "path": "ghidra/functions/ram_30360.c",
+      "bytes": 653,
+      "sha256": "0c99e7ecf9f8132372073b500e741ab9146f5a3e1b9f1b35d1a9360fafd0e5c6"
+    },
+    {
+      "path": "ghidra/functions/ram_303a8.asm",
+      "bytes": 22822,
+      "sha256": "40064629f25197a59c1a2b93954d139a0e4d2db9462c3d5805a4ec37111861dd"
+    },
+    {
+      "path": "ghidra/functions/ram_303a8.c",
+      "bytes": 23232,
+      "sha256": "78ee5f4895891b268605e522a1d47441ceaa6a50459f3b1e53c88c213c719e8f"
+    },
+    {
+      "path": "ghidra/functions/ram_30c84.asm",
+      "bytes": 3844,
+      "sha256": "eb6f77289976e2e006d852e8d18ae6d81b615fc0fedc9467fbb5a6f4190ef6d3"
+    },
+    {
+      "path": "ghidra/functions/ram_30c84.c",
+      "bytes": 3763,
+      "sha256": "468ff6085737f47c3a54463999c3eb27a0ed1edaa75a76c1126268918b5c4941"
+    },
+    {
+      "path": "ghidra/functions/ram_30df4.asm",
+      "bytes": 1004,
+      "sha256": "6c7abc9edd3cdeb206a8f27c15fd670a3af86fd0eef51d983fcfcc4cb7b379d9"
+    },
+    {
+      "path": "ghidra/functions/ram_30df4.c",
+      "bytes": 931,
+      "sha256": "d286334b5c1d196facfe012f0bb9413f4a878a9044adba61869f33fbedf7817e"
+    },
+    {
+      "path": "ghidra/functions/ram_30e4c.asm",
+      "bytes": 5021,
+      "sha256": "cce3fb899f9bb1a8342c305a895a2c98d898e517a1eee321cece947d80375287"
+    },
+    {
+      "path": "ghidra/functions/ram_30e4c.c",
+      "bytes": 4406,
+      "sha256": "5d2e0b32b145f8d4319523277a6237f48b2c581de9d5d5dae5da4bd47b05f1e1"
+    },
+    {
+      "path": "ghidra/functions/ram_31010.asm",
+      "bytes": 633,
+      "sha256": "d7a41eaee0c1466bd12b9aa67ab533e0bca23366e23b75305ebbfc640e95bb68"
+    },
+    {
+      "path": "ghidra/functions/ram_31010.c",
+      "bytes": 519,
+      "sha256": "2a426a54e7a46c23bfbd50870358834df53c4dee7fc722cb3ff476338256a410"
+    },
+    {
+      "path": "ghidra/functions/ram_31040.asm",
+      "bytes": 567,
+      "sha256": "3518dc8671b1872fe61a445755585a513e9000298207c54b23e0c0a85e7d5b2c"
+    },
+    {
+      "path": "ghidra/functions/ram_31040.c",
+      "bytes": 489,
+      "sha256": "57d7be371b80495bd37004674b5097578b72a0822f79ca7d682f48690b7ba37e"
+    },
+    {
+      "path": "ghidra/functions/ram_3106c.asm",
+      "bytes": 2806,
+      "sha256": "94265fe3c7f55a06405f38271234fd989d70aa1df8816052d6bf3b274dd9da3c"
+    },
+    {
+      "path": "ghidra/functions/ram_3106c.c",
+      "bytes": 1491,
+      "sha256": "1f908648400b50687b81f13f95d4a53f87d166ba05559d3ce56b2c6a16307fce"
+    },
+    {
+      "path": "ghidra/functions/ram_31184.asm",
+      "bytes": 1449,
+      "sha256": "e4bb5ddd2971ccb172f050b77ec704fe8635c2ec494e45be34bf36b6c9afb384"
+    },
+    {
+      "path": "ghidra/functions/ram_31184.c",
+      "bytes": 1595,
+      "sha256": "73d6847b711e4dbf2c1da49347cec42a2d2cca8cfeee2801ad52a87c99dfae0f"
+    },
+    {
+      "path": "ghidra/functions/ram_31214.asm",
+      "bytes": 12650,
+      "sha256": "c6006f00ec4142da25e4b49cbf12896941b0eaae64c27749a8acf21ac9921564"
+    },
+    {
+      "path": "ghidra/functions/ram_31214.c",
+      "bytes": 7313,
+      "sha256": "8033190ed9da51a0e560088dcad1aef1a5abbef5abd705f74a5bc5a3d3ba2cef"
+    },
+    {
+      "path": "ghidra/functions/ram_31618.asm",
+      "bytes": 18125,
+      "sha256": "25c17c31d8155b2a7274e80414b3b6c5c379edc194eaaec05e26e6060cead4a1"
+    },
+    {
+      "path": "ghidra/functions/ram_31618.c",
+      "bytes": 10893,
+      "sha256": "8e79b78eb1fc7c3788de005161303616ba8d558f33ccf2086e5a7a55bf01632d"
+    },
+    {
+      "path": "ghidra/functions/ram_31c04.asm",
+      "bytes": 27288,
+      "sha256": "9e1a8a84b8e22749585e0c9cb11f3a1f220e7f1a81e525badd24f5553dbdda1e"
+    },
+    {
+      "path": "ghidra/functions/ram_31c04.c",
+      "bytes": 16048,
+      "sha256": "90e24ad0aee9f183a4bd5d1c2189c9f3ec81bb5535da687f89b4922cca4b997c"
+    },
+    {
+      "path": "ghidra/functions/ram_32540.asm",
+      "bytes": 16218,
+      "sha256": "2bcc3b4d8ca77bfabf6349fcf319acbc748ac6325a84d1be5e6b2aa364f5fd6f"
+    },
+    {
+      "path": "ghidra/functions/ram_32540.c",
+      "bytes": 9144,
+      "sha256": "365473d20f401b993400c3f79544d9bf8d7fee2e7c2d309ed322868c83666db2"
+    },
+    {
+      "path": "ghidra/functions/ram_32b3c.asm",
+      "bytes": 4087,
+      "sha256": "665d2cecca2c6bb6c3975cfa2182c829b176376bffef9a4eca14a271fe7bea42"
+    },
+    {
+      "path": "ghidra/functions/ram_32b3c.c",
+      "bytes": 2015,
+      "sha256": "71e2f8cbe430af0894e6a7ebb7cbef2f8ab3476cca83fdb887e9b795768f7de8"
+    },
+    {
+      "path": "ghidra/functions/ram_332dc.asm",
+      "bytes": 1803,
+      "sha256": "633c30371ea82b404b34fa6d3277f3368cfc39888818af5ed04aa1cbc885e605"
+    },
+    {
+      "path": "ghidra/functions/ram_332dc.c",
+      "bytes": 571,
+      "sha256": "b5df1b0bd03270ccc075a7db019aba7b4a48b2fdc9944b27d7dcd1e175bc2b08"
+    },
+    {
+      "path": "ghidra/functions/ram_33374.asm",
+      "bytes": 3147,
+      "sha256": "1e0daea4ab17abad552632e90efda132ee1f02f4ec0e733d46ce0e2d2d177786"
+    },
+    {
+      "path": "ghidra/functions/ram_33374.c",
+      "bytes": 1385,
+      "sha256": "1d2552c8056913133da0d21cd6b20b275c66a01f646d651583b964af7f7a62a7"
+    },
+    {
+      "path": "ghidra/functions/ram_33480.asm",
+      "bytes": 4776,
+      "sha256": "c3ca6097b564917d3ac8fad5bb93aef5c1fe0e64e27792bbf1f2b4cd3c94319a"
+    },
+    {
+      "path": "ghidra/functions/ram_33480.c",
+      "bytes": 2008,
+      "sha256": "c4dac0b9b3b41cf414a77127e11cbde9d131620ffca937d32ed9db6029d6b5fe"
+    },
+    {
+      "path": "ghidra/functions/ram_33610.asm",
+      "bytes": 1725,
+      "sha256": "a0f1c3547fb8e9fdd30eee34cef0421c1722817f6dad6318e07607bfba5af2ec"
+    },
+    {
+      "path": "ghidra/functions/ram_33610.c",
+      "bytes": 699,
+      "sha256": "85daf15ae98c814114b2e44933a99fefb6c6fea5bbd922b268c0410cf8badeab"
+    },
+    {
+      "path": "ghidra/functions/ram_33694.asm",
+      "bytes": 5349,
+      "sha256": "62cb23e53c9666508b181020a3e5a7dc18d678619da222a563974652e2771b06"
+    },
+    {
+      "path": "ghidra/functions/ram_33694.c",
+      "bytes": 3209,
+      "sha256": "88373eb028192f1263af87e79fc2cd3a2912c79388bb820904fd54e899609874"
+    },
+    {
+      "path": "ghidra/functions/ram_33868.asm",
+      "bytes": 7810,
+      "sha256": "1ae217d5dbbc303792cb3853fac97fca87c3c93e04fded773b603c89d4c1033a"
+    },
+    {
+      "path": "ghidra/functions/ram_33868.c",
+      "bytes": 4969,
+      "sha256": "a6a78501d3e4b2517d9f571522484210a3e900a8e6910ba7a23b4c8ec200a316"
+    },
+    {
+      "path": "ghidra/functions/ram_33b08.asm",
+      "bytes": 4872,
+      "sha256": "0d081fca14abc3db650a3de3869224c457d04bce1c352d006785e97471a982f5"
+    },
+    {
+      "path": "ghidra/functions/ram_33b08.c",
+      "bytes": 1874,
+      "sha256": "7c537f5517cca4d77090b7bb0add4f4c856c72a817b9219db5ab62982d7fb8ca"
+    },
+    {
+      "path": "ghidra/functions/ram_33cd4.asm",
+      "bytes": 4066,
+      "sha256": "7a6cee29bf50c1e40899f1ccdc657b7577bb96894a5ffffaa7e4595170582134"
+    },
+    {
+      "path": "ghidra/functions/ram_33cd4.c",
+      "bytes": 1549,
+      "sha256": "bf6d48e04bad53bd107ab9bcdf5146ed7ee701de72b4e1d9400c887660eb9ad6"
+    },
+    {
+      "path": "ghidra/functions/ram_33e48.asm",
+      "bytes": 3607,
+      "sha256": "b551c64eaa58d70dbb278c4b7c8baf40ff2096ae248b53b1b5da0aea1df8efd9"
+    },
+    {
+      "path": "ghidra/functions/ram_33e48.c",
+      "bytes": 1865,
+      "sha256": "0d28dd3c31e77a5cdd2aef2471744d792c5d9fe4ffb14cdf3f955789df1817a2"
+    },
+    {
+      "path": "ghidra/functions/ram_33f88.asm",
+      "bytes": 1505,
+      "sha256": "dd3ed9cb1a7ac703052f1cdb6597c41d3d4b60d36535ac5369c27bc069a443b5"
+    },
+    {
+      "path": "ghidra/functions/ram_33f88.c",
+      "bytes": 1070,
+      "sha256": "c161b9a7d3743e730d1c57f56e4a67f38c916f09db14ba4a33c4f0fa81ad34a9"
+    },
+    {
+      "path": "ghidra/functions/ram_34014.asm",
+      "bytes": 6106,
+      "sha256": "5bf9cc15ac83948885bbf0e4b46b65882a394eeeedbc3853427177679bba254f"
+    },
+    {
+      "path": "ghidra/functions/ram_34014.c",
+      "bytes": 3190,
+      "sha256": "d5c5460314c08b56a259873ecd69513d0d0bb6438172c7ca2e4dd68046d1a9b1"
+    },
+    {
+      "path": "ghidra/functions/ram_342ac.asm",
+      "bytes": 7937,
+      "sha256": "4626064f82dfb2938081d416bde122871982b66bb4e7ba6e7e1dbe61cf84ba5d"
+    },
+    {
+      "path": "ghidra/functions/ram_342ac.c",
+      "bytes": 2264,
+      "sha256": "906ec3f44c9a60044f33084e2c579dc7b44649655a115032e0bd200911490ff3"
+    },
+    {
+      "path": "ghidra/functions/ram_34568.asm",
+      "bytes": 1686,
+      "sha256": "476f255fadb0324a733d8de1b0d4aa64f9cbe455a1ccc75a88e23699f9fd8498"
+    },
+    {
+      "path": "ghidra/functions/ram_34568.c",
+      "bytes": 716,
+      "sha256": "87738dc94c87fae2ffbddf084c4ab0a908a843a43ca8908e3f2074bc142868c9"
+    },
+    {
+      "path": "ghidra/functions/ram_34654.asm",
+      "bytes": 3144,
+      "sha256": "64bb12260bf7017b91dfac4ddcf1a5ed3c31aecdeafa70438cb09fcb31c8e4ab"
+    },
+    {
+      "path": "ghidra/functions/ram_34654.c",
+      "bytes": 2186,
+      "sha256": "a797142465aa5c803fc4d65a7f35863653e4bec0e5a97306830fe651725840ac"
+    },
+    {
+      "path": "ghidra/functions/ram_34784.asm",
+      "bytes": 1271,
+      "sha256": "50af0cddeaaa160e71aebdc99db350b385a904b02e962e799fcda360713a5b40"
+    },
+    {
+      "path": "ghidra/functions/ram_34784.c",
+      "bytes": 832,
+      "sha256": "ca58bd09e59359e772a3474aeca16780bec113beeb9ac1c844a5518247aa5202"
+    },
+    {
+      "path": "ghidra/functions/ram_347fc.asm",
+      "bytes": 4189,
+      "sha256": "f922af5d9494421cf979457458859af7f5771a24911615acff835b40a241e32a"
+    },
+    {
+      "path": "ghidra/functions/ram_347fc.c",
+      "bytes": 3250,
+      "sha256": "4c701f6d9737371d3451ebbeba752fe2b7fcb2a3b847d5ae1c8c87e642c00852"
+    },
+    {
+      "path": "ghidra/functions/ram_34958.asm",
+      "bytes": 4362,
+      "sha256": "b433b0af4ebaf07d8bad33d7e0eefe244b72f938c7ad5efc4fe7f307e5ad5b53"
+    },
+    {
+      "path": "ghidra/functions/ram_34958.c",
+      "bytes": 1698,
+      "sha256": "35cdc33e0c010fffba250c3a90d703082e371b0b15145f1139f06410414202be"
+    },
+    {
+      "path": "ghidra/functions/ram_34ae4.asm",
+      "bytes": 29431,
+      "sha256": "f67f96ee075e500b1745effadfc43a840a798490e622a8317508a48f2ecc7b13"
+    },
+    {
+      "path": "ghidra/functions/ram_34ae4.c",
+      "bytes": 18309,
+      "sha256": "7cb9504450cfaf5c1c37ffae403eea0d6c64cf95e5946b50ba1f9ed2605a4aae"
+    },
+    {
+      "path": "ghidra/functions/ram_3553c.asm",
+      "bytes": 2035,
+      "sha256": "317112b295fb4d2c5dbe16780b927bf6632ee38f51be4e80b945e21b3c3d1a94"
+    },
+    {
+      "path": "ghidra/functions/ram_3553c.c",
+      "bytes": 1673,
+      "sha256": "73b5029f3921dd0b580179f1326a4be3852c65d769cdc1e697c7b77f4514cd02"
+    },
+    {
+      "path": "ghidra/functions/ram_358a8.asm",
+      "bytes": 3336,
+      "sha256": "483d4946814d19e43047bca378cd25d507bc37899daa41a456def27383cf55e8"
+    },
+    {
+      "path": "ghidra/functions/ram_358a8.c",
+      "bytes": 3209,
+      "sha256": "5e60535616708b55e24f9e5ef94a43b081d4f11384ca761a8fc242acc71ad7cd"
+    },
+    {
+      "path": "ghidra/functions/ram_359e4.asm",
+      "bytes": 41406,
+      "sha256": "902637b58911985394a263447d298dcc6c7c48ee10f197e86dcc824664385a3b"
+    },
+    {
+      "path": "ghidra/functions/ram_359e4.c",
+      "bytes": 30898,
+      "sha256": "4dfd98bd0f53e7d756c272a264127d5d6c449f921da4fabc28d830eea2e3aa5e"
+    },
+    {
+      "path": "ghidra/functions/ram_36978.asm",
+      "bytes": 2733,
+      "sha256": "7075d0b645b4eb1a3390d3508cfd491d2e673558274839686deaae8fafcf7825"
+    },
+    {
+      "path": "ghidra/functions/ram_36978.c",
+      "bytes": 1329,
+      "sha256": "71e8b26fa37b8eb2442dcada8daf91373eb31ee60e58d612887caeee84c84649"
+    },
+    {
+      "path": "ghidra/functions/ram_36a4c.asm",
+      "bytes": 3052,
+      "sha256": "cd802816b24e0161d2848068335abb2061fc73e262e03bd07ccf484b35e62ee6"
+    },
+    {
+      "path": "ghidra/functions/ram_36a4c.c",
+      "bytes": 1458,
+      "sha256": "4c92936cbd0ab7a5c4b692922e5c8445a341ab350c02eeb5cb98f962710aa525"
+    },
+    {
+      "path": "ghidra/functions/ram_36b3c.asm",
+      "bytes": 2536,
+      "sha256": "e798b4e4240f2f9197e44c719739f7026d157d581edd222db71fa4aabd92ee12"
+    },
+    {
+      "path": "ghidra/functions/ram_36b3c.c",
+      "bytes": 1236,
+      "sha256": "dfca8b6efbac4ca8775f5d804569664f9f599ca6cef9b30571526a8fbcd37e08"
+    },
+    {
+      "path": "ghidra/functions/ram_36c20.asm",
+      "bytes": 2975,
+      "sha256": "c2556d014c02ed3b845d50b724dfc614db9f89d7536cfbfd117944fca012c4fe"
+    },
+    {
+      "path": "ghidra/functions/ram_36c20.c",
+      "bytes": 1487,
+      "sha256": "ee5969b0859495a3cdb48831a206843514efe00c430eeae08277150d7389382e"
+    },
+    {
+      "path": "ghidra/functions/ram_37368.asm",
+      "bytes": 1570,
+      "sha256": "2adf229b2529df2f69fb67dc4f255e75366a8e0c523c10539b7ae705be933da4"
+    },
+    {
+      "path": "ghidra/functions/ram_37368.c",
+      "bytes": 565,
+      "sha256": "7800d881592162cfa2c7ff316db3002a45b01841fd3883d559574e7d816c53c1"
+    },
+    {
+      "path": "ghidra/functions/ram_373dc.asm",
+      "bytes": 2327,
+      "sha256": "b3cc53c05002b739666e59113ab2bb191c82fd441fe03982af20aaf3b8946ffa"
+    },
+    {
+      "path": "ghidra/functions/ram_373dc.c",
+      "bytes": 1216,
+      "sha256": "afe9bba1c6c05903000970cb865e4331f75fc7cdb84dd5dd37f9a2f48e776181"
+    },
+    {
+      "path": "ghidra/functions/ram_374c8.asm",
+      "bytes": 5603,
+      "sha256": "209240899cbbb5b08c7f020e5031339ce8180a1c29b73658bd4b3b5afe8b534d"
+    },
+    {
+      "path": "ghidra/functions/ram_374c8.c",
+      "bytes": 2094,
+      "sha256": "c1c4149f10167c1c715744607293c40ee2b496f78813ca2517920c8b457220e6"
+    },
+    {
+      "path": "ghidra/functions/ram_376ac.asm",
+      "bytes": 9199,
+      "sha256": "0db64d040eb91f2443571f4c98b56e2c0c7c084868ffd2e5e7c86c6e66f833e6"
+    },
+    {
+      "path": "ghidra/functions/ram_376ac.c",
+      "bytes": 4752,
+      "sha256": "f080aaf141712a67c6d60fa09be7bca22b50e4e26cea71690c19f61c8d3306eb"
+    },
+    {
+      "path": "ghidra/functions/ram_379b8.asm",
+      "bytes": 5133,
+      "sha256": "7515262852cb874451d89be62b562d3a1bc6230ae6353791b5d24c5e49725e38"
+    },
+    {
+      "path": "ghidra/functions/ram_379b8.c",
+      "bytes": 2102,
+      "sha256": "48658187b852a44e95f2649554201783774638f78369285494a730d0ea7f1dab"
+    },
+    {
+      "path": "ghidra/functions/ram_37b9c.asm",
+      "bytes": 9975,
+      "sha256": "3ed5322acdd259fba7191281444004950f3d4bb90a95258a8c0be8f42aa82465"
+    },
+    {
+      "path": "ghidra/functions/ram_37b9c.c",
+      "bytes": 5538,
+      "sha256": "bd4032fb2a946361d8ad05604e001f622562bfb12eb43a6be1c02a2939cfa1c8"
+    },
+    {
+      "path": "ghidra/functions/ram_37f30.asm",
+      "bytes": 7060,
+      "sha256": "bc926a20bc677b42578cae8ce4c724ac142ed43db7363b9d21d84c1565d0c00e"
+    },
+    {
+      "path": "ghidra/functions/ram_37f30.c",
+      "bytes": 3908,
+      "sha256": "74a47077ad509e8bc7714f519b10f31d769c0a85a28af826a31b3e78a74a1c32"
+    },
+    {
+      "path": "ghidra/functions/ram_38194.asm",
+      "bytes": 6091,
+      "sha256": "b3c3b863e703d54d75f97b79ceb149d7e7d7cb1061483780aa3b68da1e332700"
+    },
+    {
+      "path": "ghidra/functions/ram_38194.c",
+      "bytes": 2591,
+      "sha256": "7d106b465dd2f926998c3a4bd833e2b64daecafe4a1d93937e9f3a46940dfc8d"
+    },
+    {
+      "path": "ghidra/functions/ram_383d0.asm",
+      "bytes": 1529,
+      "sha256": "a035b30ff456791dab2c33b12e0ff89ab0cb1400a0c1c60e16b076966163776f"
+    },
+    {
+      "path": "ghidra/functions/ram_383d0.c",
+      "bytes": 812,
+      "sha256": "42ba7da860d428d31b1ca8e7263fa7bc3100c2be8fdde0c6b6df7253b9947b53"
+    },
+    {
+      "path": "ghidra/functions/ram_38444.asm",
+      "bytes": 12760,
+      "sha256": "d39e1b787e9ceb222668e8ff70cd33ef85b7bf019ee9d28c09cff5109c7b23ef"
+    },
+    {
+      "path": "ghidra/functions/ram_38444.c",
+      "bytes": 6157,
+      "sha256": "218d9c3ef9791d66499fb12eee4b41974d02d345e38c18efea7881f1bc089352"
+    },
+    {
+      "path": "ghidra/functions/ram_388c8.asm",
+      "bytes": 18837,
+      "sha256": "a0a22680b8843a46ae231203dea8bc2ebfc559294a64a5c15becad5261764cf9"
+    },
+    {
+      "path": "ghidra/functions/ram_388c8.c",
+      "bytes": 12326,
+      "sha256": "024d9d6d8887b927955b38ea9c150c8843372fb8fbbf27e85ab49d42f7cd2d77"
+    },
+    {
+      "path": "ghidra/functions/ram_38f30.asm",
+      "bytes": 11626,
+      "sha256": "1087da743613fb5979b35d6473b0f63beec3469cb6a9c9c67f65ce3b3e8d1d83"
+    },
+    {
+      "path": "ghidra/functions/ram_38f30.c",
+      "bytes": 11514,
+      "sha256": "ddbd79174157836bbd64af7000c912c6989bf45c9880b27a0334de5a9e73d95d"
+    },
+    {
+      "path": "ghidra/functions/ram_397d0.asm",
+      "bytes": 14236,
+      "sha256": "6be85ba901773e822b98d3296e61f35fad0c8395f276cf05c733164141abd0cb"
+    },
+    {
+      "path": "ghidra/functions/ram_397d0.c",
+      "bytes": 14334,
+      "sha256": "b2e6d5ae0e2ca7b78e56f23a43b45dbb9618c151e41c760b2ff632f58e8cd446"
+    },
+    {
+      "path": "ghidra/functions/ram_39d28.asm",
+      "bytes": 15826,
+      "sha256": "2ab99bce84cf8c9c6469b8c1bd6e5ffabdac06c4420dcbb1be74ea7aabdf5d71"
+    },
+    {
+      "path": "ghidra/functions/ram_39d28.c",
+      "bytes": 16403,
+      "sha256": "771415386b3359a2b916a921f4b216ed54beac471a3b6170dfd93df83d7fe5bf"
+    },
+    {
+      "path": "ghidra/functions/ram_3a2dc.asm",
+      "bytes": 16960,
+      "sha256": "64650ba65b991eae6b235143c473ff3392b5bb80c52bfd2a0be22ffcb2b83fee"
+    },
+    {
+      "path": "ghidra/functions/ram_3a2dc.c",
+      "bytes": 16008,
+      "sha256": "99ebfd4e7c709db1bafd9a8aae3ab7e199aed8c0a8105df64336f6669fbb7c21"
+    },
+    {
+      "path": "ghidra/functions/ram_3a930.asm",
+      "bytes": 39075,
+      "sha256": "d6c6a70d8f5570507e5b5228893231364df9e9ec2b192bdda66f5eb829dbaf72"
+    },
+    {
+      "path": "ghidra/functions/ram_3a930.c",
+      "bytes": 37013,
+      "sha256": "0138e6a8179cf33f8782f9571ae40292e2b49c098ba1497191bd0405a93e385e"
+    },
+    {
+      "path": "ghidra/functions/ram_3b814.asm",
+      "bytes": 3638,
+      "sha256": "fc4113041fe96382ef3c663f77707df6eaa646662e58178794d6be1c9d7382c9"
+    },
+    {
+      "path": "ghidra/functions/ram_3b814.c",
+      "bytes": 2862,
+      "sha256": "0ead693ead8941ba37cab9076318984d4cf2a68896c874bb32c5b3dd29eda886"
+    },
+    {
+      "path": "ghidra/functions/ram_3b948.asm",
+      "bytes": 2727,
+      "sha256": "0e03232cfa74a3247bb732cb15396f7617f2f240f99e4fd5cabca12b5d10df01"
+    },
+    {
+      "path": "ghidra/functions/ram_3b948.c",
+      "bytes": 2369,
+      "sha256": "f65d8f30b38867b7ddb830bd9e4c6f04ff230ee28b6ef550927ea00e64205654"
+    },
+    {
+      "path": "ghidra/functions/ram_3bb34.asm",
+      "bytes": 2273,
+      "sha256": "30779624288f81ec2e914a844349ad130b6d307ec3e468cf30fae541646e76be"
+    },
+    {
+      "path": "ghidra/functions/ram_3bb34.c",
+      "bytes": 2067,
+      "sha256": "ec2ec13fedf6093c7620b34b0f3a9bdb968a9a25efab160b152590d3ee51361a"
+    },
+    {
+      "path": "ghidra/functions/ram_3c248.asm",
+      "bytes": 5232,
+      "sha256": "1c639fbc21f155d34f5f56589aa4c400611fdd27ea976597f88317d1dafa136a"
+    },
+    {
+      "path": "ghidra/functions/ram_3c248.c",
+      "bytes": 3105,
+      "sha256": "b3d2163c69dc4ea38db8d5f04d88400b844b34f536600a87da55caa536401ddd"
+    },
+    {
+      "path": "ghidra/functions/ram_3c428.asm",
+      "bytes": 2093,
+      "sha256": "9791dcc71ee5797f4678105da468af3d6c19b9bdc1a4d0291e8bbe144c859b86"
+    },
+    {
+      "path": "ghidra/functions/ram_3c428.c",
+      "bytes": 1262,
+      "sha256": "0dab18f92b757d1ae810e64bbe972d56b4f302a83030e2e79714a2de05dd42d0"
+    },
+    {
+      "path": "ghidra/functions/ram_3c4d8.asm",
+      "bytes": 3301,
+      "sha256": "095c17ffe6faf8bfde91f42b437d3d1aed301d42404e1043f742a21652ef5b93"
+    },
+    {
+      "path": "ghidra/functions/ram_3c4d8.c",
+      "bytes": 2952,
+      "sha256": "801a84dc986e242a80fa89b6540c9ec0a0e0f27b5c1c57100c3db3961b7ae9f5"
+    },
+    {
+      "path": "ghidra/functions/ram_3c60c.asm",
+      "bytes": 763,
+      "sha256": "b3396cd73a2caeac33c974974d3cd5630c3ba3fb886de167b82f4772b988d8b1"
+    },
+    {
+      "path": "ghidra/functions/ram_3c60c.c",
+      "bytes": 374,
+      "sha256": "06155e78e389aa1307a6e89438d7e93555d8896efc8bc27e2ac846cfcf0f23d3"
+    },
+    {
+      "path": "ghidra/functions/ram_3cc80.asm",
+      "bytes": 159,
+      "sha256": "975bda2a325355f9a3f2a966834b6b784f1936e03f0479929175cf325a19961d"
+    },
+    {
+      "path": "ghidra/functions/ram_3cc80.c",
+      "bytes": 156,
+      "sha256": "d7403ad9234a425af2aafcaa8412b5534ceac01c9d78d138b348bf921241d925"
+    },
+    {
+      "path": "ghidra/functions/ram_3cd00.asm",
+      "bytes": 306,
+      "sha256": "db24451428ea1e7e304bd2b84966a0ae5ee076fb81270b45c01bca2a9855dcb0"
+    },
+    {
+      "path": "ghidra/functions/ram_3cd00.c",
+      "bytes": 217,
+      "sha256": "96b343fd36805878b84f06f0fc06fced61027d8feb0d8da70e5ffc5cf3bb321b"
+    },
+    {
+      "path": "ghidra/functions/ram_3cd1c.asm",
+      "bytes": 847,
+      "sha256": "552e02002acbfa7f3923e62e6d0415c9305e85905cf74c137cb0c4ad62b6c273"
+    },
+    {
+      "path": "ghidra/functions/ram_3cd1c.c",
+      "bytes": 351,
+      "sha256": "f748dadc78740d66fdfed361998afb874000d098048cd50eee11933f80b3367e"
+    },
+    {
+      "path": "ghidra/functions/ram_3cd68.asm",
+      "bytes": 308,
+      "sha256": "bdda2f1f1a99d272a8dd536db5ce519e04572ee96e9fbd5a14a6e888d0d9bc1f"
+    },
+    {
+      "path": "ghidra/functions/ram_3cd68.c",
+      "bytes": 199,
+      "sha256": "a7cb8f166910188907738f3d65230285a2287d3374852dc3fde3105eb157bdbc"
+    },
+    {
+      "path": "ghidra/functions/ram_3cd7c.asm",
+      "bytes": 773,
+      "sha256": "0489eba17c7c0fb02e5ad327fd7af9f209b063ac4fc43566c071f25222c9ec8e"
+    },
+    {
+      "path": "ghidra/functions/ram_3cd7c.c",
+      "bytes": 509,
+      "sha256": "bd8ed22ae678442f4eaef1716c035991b79767855a328cadceebb774a560b16e"
+    },
+    {
+      "path": "ghidra/functions/ram_3cdbc.asm",
+      "bytes": 2132,
+      "sha256": "fcc3743ae0ae3c52892b74e4626142ec83bf0eae46529aafbd98e4d9bcd6ff6b"
+    },
+    {
+      "path": "ghidra/functions/ram_3cdbc.c",
+      "bytes": 1052,
+      "sha256": "fa53c795d6b04091ad21607b74c4fed7f0d855b4c4d231a6faaf7374b606c21e"
+    },
+    {
+      "path": "ghidra/functions/ram_3ce60.asm",
+      "bytes": 2672,
+      "sha256": "018d35159e1865edea015a98f48cc576e0a0465bf99d95a552cd4f0e8c6700f3"
+    },
+    {
+      "path": "ghidra/functions/ram_3ce60.c",
+      "bytes": 1239,
+      "sha256": "c9613fcbd49f61852f35eae309f293467bc824fe1bbda0c5192ba770ef011a30"
+    },
+    {
+      "path": "ghidra/functions/ram_3cf18.asm",
+      "bytes": 6547,
+      "sha256": "a9e61910fc1650deb5ca017a58e1126cd742cd02eb8c9d4702a634bea4ec4848"
+    },
+    {
+      "path": "ghidra/functions/ram_3cf18.c",
+      "bytes": 2881,
+      "sha256": "2676fb3131cf125457555b7794ef2e6b8c4a0af48ff919a0c6d68561a472702a"
+    },
+    {
+      "path": "ghidra/functions/ram_3d150.asm",
+      "bytes": 2432,
+      "sha256": "e85ed24cda65253b11d0ed4c23aa02542a783a0e594cdbf1d93d6ed25c8ef6a1"
+    },
+    {
+      "path": "ghidra/functions/ram_3d150.c",
+      "bytes": 1597,
+      "sha256": "0966dbfff1c08f59c254424bfe10733a23e8df0eb3f116ca0558915ac3488594"
+    },
+    {
+      "path": "ghidra/functions/ram_3d2b0.asm",
+      "bytes": 2885,
+      "sha256": "3e6d4649793cb325d451e490c64d22f0c72b4265c0c82134999fdd4c9c17d365"
+    },
+    {
+      "path": "ghidra/functions/ram_3d2b0.c",
+      "bytes": 1227,
+      "sha256": "bafffcd02ebce414a2fb7b791b97b1d0257f99c1e1492f24b69e0283ac554d0d"
+    },
+    {
+      "path": "ghidra/functions/ram_3d3dc.asm",
+      "bytes": 2609,
+      "sha256": "0b548b18e5f8e386cc6852ca3bd6524878f7577ff59ba4aee0a28cb3d5bd702a"
+    },
+    {
+      "path": "ghidra/functions/ram_3d3dc.c",
+      "bytes": 1618,
+      "sha256": "d3c96977e4509ca7176ac351e4a4273bf89970bee3da8155efbd01c7fd0220d3"
+    },
+    {
+      "path": "ghidra/functions/ram_3d4e4.asm",
+      "bytes": 3014,
+      "sha256": "df52ac9211d74dee9632d4e0439541cec9b7dfdf7cc3c0650f75099afbf231a5"
+    },
+    {
+      "path": "ghidra/functions/ram_3d4e4.c",
+      "bytes": 1458,
+      "sha256": "aaa63fa77b87334e61457ab53314a7bcf92a788ccafe882f9887907d5f806a54"
+    },
+    {
+      "path": "ghidra/functions/ram_3d5e4.asm",
+      "bytes": 611,
+      "sha256": "2e2b4ac087f42ea073324231f4e21702d5ade7a185699eb2bf672f0765c30c4f"
+    },
+    {
+      "path": "ghidra/functions/ram_3d5e4.c",
+      "bytes": 429,
+      "sha256": "6a3676be1f6e992203537a53aa001019c541a8dc62b5c26960fb863c9c187d16"
+    },
+    {
+      "path": "ghidra/functions/ram_3d6a8.asm",
+      "bytes": 710,
+      "sha256": "d30ca23938a130d634b8b1a442cd6fbd944517de73bbe1ca4d61bfc53a3595e1"
+    },
+    {
+      "path": "ghidra/functions/ram_3d6a8.c",
+      "bytes": 414,
+      "sha256": "7be508ca7d08e49cc2a1154f739cfc1c3d5e6e4c9b1d452224e1a5890ca9f5ef"
+    },
+    {
+      "path": "ghidra/functions/ram_3d6f4.asm",
+      "bytes": 1589,
+      "sha256": "11d19483effbbf23673fdc69cfe75667ef8627c0f9871ceacf2db1fe0eabcdc5"
+    },
+    {
+      "path": "ghidra/functions/ram_3d6f4.c",
+      "bytes": 922,
+      "sha256": "703b3e7edff344335d242c5b8ce08d2198cbbdaf3f2b785f6f67e6aa5fae7c70"
+    },
+    {
+      "path": "ghidra/functions/ram_3d76c.asm",
+      "bytes": 918,
+      "sha256": "5de7ab0cff0203a7e5bbaa21ba4259cf1407c958c1400b557d970594ecae035e"
+    },
+    {
+      "path": "ghidra/functions/ram_3d76c.c",
+      "bytes": 540,
+      "sha256": "762caaa1b20688319701cf897db73c9f68c12790327a7c6e981560273161080e"
+    },
+    {
+      "path": "ghidra/functions/ram_3d7b4.asm",
+      "bytes": 1181,
+      "sha256": "090cd955a141f1779ebf29953159955b51842d48fa1b5f17d442bc9212bbe81f"
+    },
+    {
+      "path": "ghidra/functions/ram_3d7b4.c",
+      "bytes": 846,
+      "sha256": "96775a959202badee2418931ae569e5a94317f4d529ba63a640feee59029e5d9"
+    },
+    {
+      "path": "ghidra/functions/ram_3d814.asm",
+      "bytes": 10605,
+      "sha256": "25d809c7c8c9c8be5bc980ec833a674a9e5c02407582cfd2806ec2cdc3aa9a75"
+    },
+    {
+      "path": "ghidra/functions/ram_3d814.c",
+      "bytes": 6008,
+      "sha256": "7aa01b28f2b8dab92cf162bcb20ae2689edf0ef8b993fbe2fd627d3637fdb422"
+    },
+    {
+      "path": "ghidra/functions/ram_3dc38.asm",
+      "bytes": 22552,
+      "sha256": "b9ab7eff62bb70f44546067bafc3c22913dcab09b0954d5d480b3af9209ed797"
+    },
+    {
+      "path": "ghidra/functions/ram_3dc38.c",
+      "bytes": 11453,
+      "sha256": "10ab095065e0e970b18ac3009a499f852a18f5c98b991c7e107cfad51a73b599"
+    },
+    {
+      "path": "ghidra/functions/ram_3e430.asm",
+      "bytes": 2610,
+      "sha256": "be9569bd61f5009019280e06ecb059802bee3e8dce5529fa8062e44bcbfa99bc"
+    },
+    {
+      "path": "ghidra/functions/ram_3e430.c",
+      "bytes": 1752,
+      "sha256": "9d1740378f42aab479ac8750e14b13581ef8fd76467212a3d54057eeb34309c1"
+    },
+    {
+      "path": "ghidra/functions/ram_3e504.asm",
+      "bytes": 414,
+      "sha256": "938e2869af312843f1cbc776fb3d1b44f684ef4e2356b6ef8366b3380b8d7a0d"
+    },
+    {
+      "path": "ghidra/functions/ram_3e504.c",
+      "bytes": 280,
+      "sha256": "f1097c0936b525b2da74ce31b1a1ed3ed40d99a3d289adaea80911ff41b1469c"
+    },
+    {
+      "path": "ghidra/functions/ram_3e51c.asm",
+      "bytes": 1038,
+      "sha256": "76e9a9eb888fdf34666faed72717eddb179216a3bf1f97e3cf49c1072cfeba6a"
+    },
+    {
+      "path": "ghidra/functions/ram_3e51c.c",
+      "bytes": 645,
+      "sha256": "610bb3dc087b65d1924e5bbc266fb0a53e4231bd86c2122fc5b7759da9d80dc2"
+    },
+    {
+      "path": "ghidra/functions/ram_3e55c.asm",
+      "bytes": 415,
+      "sha256": "062ed5d215007fcbfe32f482ceb371318f09a32e389ec163e568384b8826ed0e"
+    },
+    {
+      "path": "ghidra/functions/ram_3e55c.c",
+      "bytes": 282,
+      "sha256": "26318938caae4451e0726ac4a8b98fffd382cd9aac2d17a9517cd59715fba517"
+    },
+    {
+      "path": "ghidra/functions/ram_3e574.asm",
+      "bytes": 3032,
+      "sha256": "3356e3979682e2f59ccfcf827a66c3603fad88cc7ac8d1e23c98c2657f48f955"
+    },
+    {
+      "path": "ghidra/functions/ram_3e574.c",
+      "bytes": 1973,
+      "sha256": "e0c1e727e8016d379a0be48d13306421273c236d0b15556ad33d28f66801f007"
+    },
+    {
+      "path": "ghidra/functions/ram_3e674.asm",
+      "bytes": 486,
+      "sha256": "ee2951be0e4e2d24b3b681194673b6e86099f3b7be64da837327733b3afd9cc0"
+    },
+    {
+      "path": "ghidra/functions/ram_3e674.c",
+      "bytes": 336,
+      "sha256": "743ebc6ecebbd9b6dc35ff54548407df2d09ad0d9e534664730f35184ea46b37"
+    },
+    {
+      "path": "ghidra/functions/ram_3e690.asm",
+      "bytes": 1200,
+      "sha256": "7cc7e73ac6b6ccf8bb334611de3fa86f72ceb8f3d90d97d1ae617a560b610364"
+    },
+    {
+      "path": "ghidra/functions/ram_3e690.c",
+      "bytes": 941,
+      "sha256": "85dc61774ca0c4978075cc605a226b278ea1bc0a0d083b5fd0a70dae0364cd03"
+    },
+    {
+      "path": "ghidra/functions/ram_3e77c.asm",
+      "bytes": 1465,
+      "sha256": "367b88ed829f0a9b5f25d387046fc8f49d004e25fbe211aa5e7319dfef79747f"
+    },
+    {
+      "path": "ghidra/functions/ram_3e77c.c",
+      "bytes": 1428,
+      "sha256": "818018694e03406431451c0e1022df1e967035199e7eebc5dc2876546e08c410"
+    },
+    {
+      "path": "ghidra/functions/ram_3e7fc.asm",
+      "bytes": 613,
+      "sha256": "1b514b05a60d7910a909140bc391a3de159a4d3bf323116cfb85de5bf7f6bd89"
+    },
+    {
+      "path": "ghidra/functions/ram_3e7fc.c",
+      "bytes": 1936,
+      "sha256": "a2c43c6666b5dcefaa40c222b593e7323a3e28cc0d0b06bc16c5a92541419066"
+    },
+    {
+      "path": "ghidra/functions/ram_3e840.asm",
+      "bytes": 1374,
+      "sha256": "bec071b02d7768268bb0793e9371f4872f5d3e502ddd38838f35704bdcd7d119"
+    },
+    {
+      "path": "ghidra/functions/ram_3e840.c",
+      "bytes": 1182,
+      "sha256": "428dae7608a730b5ac1303ea87ffe212ff34635dfabdaca66af084e44cf3d96c"
+    },
+    {
+      "path": "ghidra/functions/ram_3e8c0.asm",
+      "bytes": 551,
+      "sha256": "afbb5241c28da6950b07c555c4e46af6751b01175718c2d75587723d2772a5df"
+    },
+    {
+      "path": "ghidra/functions/ram_3e8c0.c",
+      "bytes": 691,
+      "sha256": "08a15d7597cdf6880113b347dfaa6279daac89c58c8ab7e880a611ac22e1329a"
+    },
+    {
+      "path": "ghidra/functions/ram_3e8e4.asm",
+      "bytes": 328,
+      "sha256": "ceea85c7aa88fdac6949d748c8b36b2330566ff8f30bcae2faa7f71b2955ad2e"
+    },
+    {
+      "path": "ghidra/functions/ram_3e8e4.c",
+      "bytes": 285,
+      "sha256": "14cb825350706ab4c1b397056b1e05283a2cd6f1f5d1f3e7d9dbe472a35995fa"
+    },
+    {
+      "path": "ghidra/functions/ram_3e8f4.asm",
+      "bytes": 168,
+      "sha256": "fd4401c86cb5f36a8f1c709a5e12ac03c3bbb75656da588a544047f02f87b259"
+    },
+    {
+      "path": "ghidra/functions/ram_3e8f4.c",
+      "bytes": 382,
+      "sha256": "6aad6859cdc71b6924eaadca4c66664cafb07229aa24b57eb883d696ac0469ff"
+    },
+    {
+      "path": "ghidra/functions/ram_3e8f8.asm",
+      "bytes": 440,
+      "sha256": "23db7ae7e70c70db609d8ee9412c2be5f91458214b7219194b972efdc5d4b7ca"
+    },
+    {
+      "path": "ghidra/functions/ram_3e8f8.c",
+      "bytes": 376,
+      "sha256": "ad7c1e4a7be6483a8a3da1a4cbcf067cb4fbd35cf106b3f30f6a7395af5f51cc"
+    },
+    {
+      "path": "ghidra/functions/ram_3e90c.asm",
+      "bytes": 3149,
+      "sha256": "024d3a167bb95664c07b429c457b365ce26a7b00812a4e857c53d493a6320769"
+    },
+    {
+      "path": "ghidra/functions/ram_3e90c.c",
+      "bytes": 2833,
+      "sha256": "8a030c6f06cef1be7efea8e83faa767bbc140e281da64529d75b5fd79864b078"
+    },
+    {
+      "path": "ghidra/functions/ram_3ea50.asm",
+      "bytes": 1844,
+      "sha256": "90b7b101c2fb0d3fc3819275a4794b19cede4a1d81868021416a0ef4a3a5ea4e"
+    },
+    {
+      "path": "ghidra/functions/ram_3ea50.c",
+      "bytes": 2228,
+      "sha256": "6b3534786922f3cd282710f55388c4066de077d57916574d0eda18161fc43c4a"
+    },
+    {
+      "path": "ghidra/functions/ram_3eb00.asm",
+      "bytes": 1871,
+      "sha256": "af106e99b44b9cb67f9424485326eaff8f4550622d25f9e98effe62a3102e3f7"
+    },
+    {
+      "path": "ghidra/functions/ram_3eb00.c",
+      "bytes": 2228,
+      "sha256": "4d610bf6d7b73ed5b9b4028835c5f82613b81eaec25118e15a8ded96d50fca5a"
+    },
+    {
+      "path": "ghidra/functions/ram_3ebb0.asm",
+      "bytes": 1844,
+      "sha256": "dec3dfd83b78e772bcb4ad50a8d347cf5f1b239c777935b3a45248d3109f2c99"
+    },
+    {
+      "path": "ghidra/functions/ram_3ebb0.c",
+      "bytes": 2228,
+      "sha256": "7a05f08a2598b5569d23a5633b57fe226c7769b39b6112b34ee04d0613ea5762"
+    },
+    {
+      "path": "ghidra/functions/ram_3ec60.asm",
+      "bytes": 1817,
+      "sha256": "9cb2ad7f6f6587d385401fdff93f623a395f8dfbbaa7d58b0dcb582b55e90890"
+    },
+    {
+      "path": "ghidra/functions/ram_3ec60.c",
+      "bytes": 2228,
+      "sha256": "bebc7580cd999640306f41de139329b454ab723637bb2fe18bd132093f6f9100"
+    },
+    {
+      "path": "ghidra/functions/ram_3ed10.asm",
+      "bytes": 1037,
+      "sha256": "37250ee73f6b96aafabb5c653b5b0027a443d2912fc49c0469971118ebd83192"
+    },
+    {
+      "path": "ghidra/functions/ram_3ed10.c",
+      "bytes": 1154,
+      "sha256": "89a5c2194042c53e097c4d075fc8ea44563c5dbc3249193948316b14526db783"
+    },
+    {
+      "path": "ghidra/functions/ram_3ed5c.asm",
+      "bytes": 504,
+      "sha256": "df5a61cfb7a49b40d2bf64f97cc25b9132e308d07792336496b830ecf84c5128"
+    },
+    {
+      "path": "ghidra/functions/ram_3ed5c.c",
+      "bytes": 370,
+      "sha256": "80541e838081d2f0016f76f06d230cd5f82628987f224cc6bb01aec1695323db"
+    },
+    {
+      "path": "ghidra/functions/ram_3ed78.asm",
+      "bytes": 1054,
+      "sha256": "241dc0b4d6c4801ca9e4819bd638bcffa8d10e5da75be4f2827e3b671d62dcc1"
+    },
+    {
+      "path": "ghidra/functions/ram_3ed78.c",
+      "bytes": 703,
+      "sha256": "6456a3fc1ef43e4da88a3891ea26df7269d05d785849718f8d3a7022658e1ef7"
+    },
+    {
+      "path": "ghidra/functions/ram_3edc0.asm",
+      "bytes": 735,
+      "sha256": "7664b92e2c3b21033442221f3198929fd72085cc71f879a7f77d90d243fc5539"
+    },
+    {
+      "path": "ghidra/functions/ram_3edc0.c",
+      "bytes": 549,
+      "sha256": "82a12f51cc465c8cb8678e66ed30adc253fbb030530012a788cf88839d6cd5e6"
+    },
+    {
+      "path": "ghidra/functions/ram_3edf0.asm",
+      "bytes": 8686,
+      "sha256": "f275dbd6b1fc942aa1b2bbf056443eb349b49a4882fb0b171926dcfb48195aba"
+    },
+    {
+      "path": "ghidra/functions/ram_3edf0.c",
+      "bytes": 6095,
+      "sha256": "d1279d76410887a2d46e95b02f7d0c4b309d022c55c70c683bea1aec81d310d0"
+    },
+    {
+      "path": "ghidra/functions/ram_3f0ac.asm",
+      "bytes": 975,
+      "sha256": "328c9e4fdc36ee6d9ab96eff1d0be7d7e4af0896391b1673e98a40db4c726317"
+    },
+    {
+      "path": "ghidra/functions/ram_3f0ac.c",
+      "bytes": 802,
+      "sha256": "296e4f1d5b2d60788f1ab505574bbb438fb148160bd48bd692600f0a527673ad"
+    },
+    {
+      "path": "ghidra/functions/ram_3f0ec.asm",
+      "bytes": 633,
+      "sha256": "bbb8865854c4e4b9c4beff3fb1c0fcbf28599646fdc4e261b25c3cd2340541e5"
+    },
+    {
+      "path": "ghidra/functions/ram_3f0ec.c",
+      "bytes": 422,
+      "sha256": "6200554cbb9f27505705832dedb8e0d565b4344a72452f9d1c762e73aff784a4"
+    },
+    {
+      "path": "ghidra/functions/ram_3f16c.asm",
+      "bytes": 1415,
+      "sha256": "ff81c306ceb66ca764e4c8433b933f2dce8e4c18ac8c74efd97ed03946c5c981"
+    },
+    {
+      "path": "ghidra/functions/ram_3f16c.c",
+      "bytes": 857,
+      "sha256": "b223c91a24a7f0798c17260064eaa1066f44c76e28d3cbeac6cbe0e7382dd2b7"
+    },
+    {
+      "path": "ghidra/functions/ram_3f1c8.asm",
+      "bytes": 305,
+      "sha256": "a8aeff7a095755f408eb9ca09e10a946d70e5fb6a05bf82928da27a8c081f484"
+    },
+    {
+      "path": "ghidra/functions/ram_3f1c8.c",
+      "bytes": 211,
+      "sha256": "be39853d075d6357e98707af81e8c9071f516d52d99b5969784f3233e83021b6"
+    },
+    {
+      "path": "ghidra/functions/ram_3f308.asm",
+      "bytes": 1109,
+      "sha256": "9823a9b9d93deaaa7b693110f287b15ed5cfeb48bb687fdff252f506043dbae1"
+    },
+    {
+      "path": "ghidra/functions/ram_3f308.c",
+      "bytes": 762,
+      "sha256": "63db6f467271cb987d7e3529b456797b3a9698ce64de94130bc6ac5e93b0c2f3"
+    },
+    {
+      "path": "ghidra/functions/ram_3f340.asm",
+      "bytes": 15313,
+      "sha256": "47e8c6f52b2e92c37321acfe3c8c62df0684474e08e88c421d0a998f2083ca08"
+    },
+    {
+      "path": "ghidra/functions/ram_3f340.c",
+      "bytes": 11093,
+      "sha256": "adb862ee7208c5379f8790be752c5e2c8fe16bb7095d25d224a319abf23dbbb0"
+    },
+    {
+      "path": "ghidra/functions/ram_3f9e8.asm",
+      "bytes": 313,
+      "sha256": "732c7fa2daf04111d1b9b24c57fc122ebb9a4c8f3a99cad87ce0084bb560b522"
+    },
+    {
+      "path": "ghidra/functions/ram_3f9e8.c",
+      "bytes": 10193,
+      "sha256": "f604f6a81f1dcb9ee31be5b60dd9889f85d5b8385679cb88039546cd8064918c"
+    },
+    {
+      "path": "ghidra/functions/ram_3f9f4.asm",
+      "bytes": 11584,
+      "sha256": "e0a0f5071649ae805055762261a938f0abf539e028878d7780c71eea771184bb"
+    },
+    {
+      "path": "ghidra/functions/ram_3f9f4.c",
+      "bytes": 10193,
+      "sha256": "69699e4b63c275d42355d7cb6bac993426eee260cce74252bed1750c17c93365"
+    },
+    {
+      "path": "ghidra/functions/ram_3ff0c.asm",
+      "bytes": 1134,
+      "sha256": "329bc1b70dceec945f653595c7cd7b022234d55480005ed42ceee3ff8e4cadb7"
+    },
+    {
+      "path": "ghidra/functions/ram_3ff0c.c",
+      "bytes": 860,
+      "sha256": "6fa19c121c96b4249af1feca5961aae32135e3c2cdc929ddf702866fc25ee4db"
+    },
+    {
+      "path": "ghidra/functions/ram_3ff6c.asm",
+      "bytes": 7670,
+      "sha256": "4e6445da2e8617c00eeea3a6bbca1208a27c70acd714b82dc4bc296cf7551f22"
+    },
+    {
+      "path": "ghidra/functions/ram_3ff6c.c",
+      "bytes": 7332,
+      "sha256": "f066cb467d084e89664f2d74cb4c5ff4c2d049eaefbc2f166754a0a47a30616d"
+    },
+    {
+      "path": "ghidra/functions/ram_402c0.asm",
+      "bytes": 1433,
+      "sha256": "34026c0dbd40eae830c5fb53b4b3062a5d2884349a27a13a432855b4fccd054f"
+    },
+    {
+      "path": "ghidra/functions/ram_402c0.c",
+      "bytes": 1169,
+      "sha256": "93b7ffe9e2ed57eac14aa542208bcac020bea03c607b528ac394a9bf060ce0bf"
+    },
+    {
+      "path": "ghidra/functions/ram_40344.asm",
+      "bytes": 851,
+      "sha256": "8d02182ec8018c7bb7e51d7005692fa5b8c82a1caf2e823192f24d7a918595c1"
+    },
+    {
+      "path": "ghidra/functions/ram_40344.c",
+      "bytes": 3910,
+      "sha256": "88561371af0d171cfd9adf18c3e04b7102fd7f64aba072dae2f617eb7cb10057"
+    },
+    {
+      "path": "ghidra/functions/ram_40390.asm",
+      "bytes": 2447,
+      "sha256": "e129a5220ca77d319762b0c3714bf21de621f1c10c58c19eacfabfe762ebc58b"
+    },
+    {
+      "path": "ghidra/functions/ram_40390.c",
+      "bytes": 3477,
+      "sha256": "ba2b50481fd5bda0301bba9d3f374b99b37798d695cdaf4f906d3d470503365c"
+    },
+    {
+      "path": "ghidra/functions/ram_4046c.asm",
+      "bytes": 3324,
+      "sha256": "954295d1c043324c9f7d58eca20ed315d32e146d9d1e42de353cf1d0bf248bbc"
+    },
+    {
+      "path": "ghidra/functions/ram_4046c.c",
+      "bytes": 3912,
+      "sha256": "395b87213a57bf3324010d027da302577bbae67531cfb2eb43689b57d52d1701"
+    },
+    {
+      "path": "ghidra/functions/ram_405e4.asm",
+      "bytes": 299,
+      "sha256": "8f6926e46609fb1e6cc7ae1dc715abff9ed75cc4be1ac7e9312ee4433ff14d06"
+    },
+    {
+      "path": "ghidra/functions/ram_405e4.c",
+      "bytes": 456,
+      "sha256": "4f3ceb11bcd7d8f1939b728df77c14da00d54faa089150b77429062bc2be9471"
+    },
+    {
+      "path": "ghidra/functions/ram_405f8.asm",
+      "bytes": 1165,
+      "sha256": "4c526f1749657d746b2f1e30ef1ad639c1b550a6ff6d42d5599b7e79aba825ce"
+    },
+    {
+      "path": "ghidra/functions/ram_405f8.c",
+      "bytes": 619,
+      "sha256": "11e2c07131f2d9a1c73ab7b810e0404717aa32b745c76c7d0cba0fd91865d57e"
+    },
+    {
+      "path": "ghidra/functions/ram_4065c.asm",
+      "bytes": 582,
+      "sha256": "bf70427d8b0b38024ef598d5d4a49205153685eafd87fce9ff75a3775e25d7b6"
+    },
+    {
+      "path": "ghidra/functions/ram_4065c.c",
+      "bytes": 551,
+      "sha256": "b7da801aecdbe48501c30dbd1916b115249a53dc93ec5cd37c8f621bbe577126"
+    },
+    {
+      "path": "ghidra/functions/ram_40688.asm",
+      "bytes": 582,
+      "sha256": "803a27f4dfb27459124ab5f11aad42121a41ae667f4e8444e2658a6ad06513c8"
+    },
+    {
+      "path": "ghidra/functions/ram_40688.c",
+      "bytes": 545,
+      "sha256": "7968b19b4935f448c7af09d3b14c186ac4f84418bb570ef9bd9d17530d0b7eb6"
+    },
+    {
+      "path": "ghidra/functions/ram_406b4.asm",
+      "bytes": 333,
+      "sha256": "90f272ec1c336397cdf3701acb6735d48d316e95a66eeec4e6698d6d59380e69"
+    },
+    {
+      "path": "ghidra/functions/ram_406b4.c",
+      "bytes": 221,
+      "sha256": "157ffb9e7858d671c70260536d39ef499fd0b7307689154106234c334e076351"
+    },
+    {
+      "path": "ghidra/functions/ram_406c8.asm",
+      "bytes": 313,
+      "sha256": "e581bef6302ccd5b0fc6e5f4ab55da899484d8826b56c2e4e9c689362d6f0b2e"
+    },
+    {
+      "path": "ghidra/functions/ram_406c8.c",
+      "bytes": 190,
+      "sha256": "903c29a96504acfc4c9e7945537ac6a720dfee8b44234a3e76eb12de92a52ccd"
+    },
+    {
+      "path": "ghidra/functions/ram_406d8.asm",
+      "bytes": 706,
+      "sha256": "91c14b07c45ae82a43a23e5efb025c78df416ad24826e093773ae6e27c4fb8f7"
+    },
+    {
+      "path": "ghidra/functions/ram_406d8.c",
+      "bytes": 586,
+      "sha256": "1add9c8ff104424790a5406b5be81fc5f1c68bd8db41168cd9828ee96c3203fd"
+    },
+    {
+      "path": "ghidra/functions/ram_4070c.asm",
+      "bytes": 1902,
+      "sha256": "cc66e5b73df33b8c1d9e7891b8562758f7543e948b4e4d9a1fe6b7e8bd270123"
+    },
+    {
+      "path": "ghidra/functions/ram_4070c.c",
+      "bytes": 1687,
+      "sha256": "fc29e0af8b78a9934429e2f6591a023b0a2096941abfa9c7192979e0f24087b4"
+    },
+    {
+      "path": "ghidra/functions/ram_407fc.asm",
+      "bytes": 482,
+      "sha256": "dda2c158a4b6394c69bd600abf986832ed2467525682c5c686a6d8a2f35f2c47"
+    },
+    {
+      "path": "ghidra/functions/ram_407fc.c",
+      "bytes": 343,
+      "sha256": "25fea889ad35d1fa9a5b8f42f4c414845523e690992358e601c9a7f0a25732b7"
+    },
+    {
+      "path": "ghidra/functions/ram_40874.asm",
+      "bytes": 519,
+      "sha256": "8bf40b9be21eb1be0acd143b2cfa1426ab142388b31f1d5f7f48ebddd613dbae"
+    },
+    {
+      "path": "ghidra/functions/ram_40874.c",
+      "bytes": 221,
+      "sha256": "146e2941ae53bb462e45f69c4fe3648ac1fcde284186413d4ef85bba0a5ab1b8"
+    },
+    {
+      "path": "ghidra/functions/ram_40898.asm",
+      "bytes": 404,
+      "sha256": "90c740055a2767c4f65bdc314c6d2f588005a73434b2c692f4c67461110c9548"
+    },
+    {
+      "path": "ghidra/functions/ram_40898.c",
+      "bytes": 279,
+      "sha256": "43b653d5cf866739774f236a749b5d8e8cfa34e19be86ae169ee1fce8c3f8920"
+    },
+    {
+      "path": "ghidra/functions/ram_408ac.asm",
+      "bytes": 235,
+      "sha256": "5e3b36fd730c388764f14da6175353702815563c5cd9db7797d8b75192d26428"
+    },
+    {
+      "path": "ghidra/functions/ram_408ac.c",
+      "bytes": 178,
+      "sha256": "0086ceaa0b19ed266f424b0b7fa948ac23fa2d426d0ecf5956878a68b3891403"
+    },
+    {
+      "path": "ghidra/functions/ram_408b8.asm",
+      "bytes": 235,
+      "sha256": "1429733fd93a1ca4e91a817d746bc78c8b02aa3f62212b7c37deb04db317438f"
+    },
+    {
+      "path": "ghidra/functions/ram_408b8.c",
+      "bytes": 178,
+      "sha256": "adc8a7d4054676092dd414090be442e29c8efa8ecfe0d373209f58b650619c9e"
+    },
+    {
+      "path": "ghidra/functions/ram_408c4.asm",
+      "bytes": 236,
+      "sha256": "a1533f56208f3ac94c91a24415d45f6e2519758db6370aab4be0833521b42676"
+    },
+    {
+      "path": "ghidra/functions/ram_408c4.c",
+      "bytes": 178,
+      "sha256": "81d181c12bae35d326bf026093d097d662f5c1a5b39e7ca12e3c1cd1bfcf9607"
+    },
+    {
+      "path": "ghidra/functions/ram_408d0.asm",
+      "bytes": 236,
+      "sha256": "917087d00a8cc8182b917a9049c642cf993ab567e6b377bdad09cab875947fb3"
+    },
+    {
+      "path": "ghidra/functions/ram_408d0.c",
+      "bytes": 178,
+      "sha256": "5a71066c3e9f1d711f67883fc536345c3ea5e4ac8739ff991b8b56b6e655a27b"
+    },
+    {
+      "path": "ghidra/functions/ram_408dc.asm",
+      "bytes": 236,
+      "sha256": "820beae81fad92434df60450bf6acb9695a81c076e23e3aad47c6bc0b5112d8f"
+    },
+    {
+      "path": "ghidra/functions/ram_408dc.c",
+      "bytes": 178,
+      "sha256": "4cd419b2080b9fa728971a5d58f348411c17050cbc733031e5479c6064047203"
+    },
+    {
+      "path": "ghidra/functions/ram_408e8.asm",
+      "bytes": 236,
+      "sha256": "23904a96b8d06390d2bd52283c1868ab28b89a8139af7b0f42c8826a3c684c5c"
+    },
+    {
+      "path": "ghidra/functions/ram_408e8.c",
+      "bytes": 178,
+      "sha256": "cd9f6babccbf9a891bedec12112a3fa23dbbed755b05627527804ad7f8367d23"
+    },
+    {
+      "path": "ghidra/functions/ram_408f4.asm",
+      "bytes": 235,
+      "sha256": "05e94afdbebfb33d16d85be914948f9855d24479ee0bb665e69494d82d218319"
+    },
+    {
+      "path": "ghidra/functions/ram_408f4.c",
+      "bytes": 178,
+      "sha256": "2d4b67e8ec2b47b6d6f83893ac9f45380d4a1786939c459445c62a248390146b"
+    },
+    {
+      "path": "ghidra/functions/ram_40900.asm",
+      "bytes": 515,
+      "sha256": "fd6523eb445742190ad91cdc5df105fbc0c298dabe62418ef21785e545314d29"
+    },
+    {
+      "path": "ghidra/functions/ram_40900.c",
+      "bytes": 398,
+      "sha256": "21be97bcd0923ceffd5d2d986901bb6b649cd7dadaf0ce643d65692c266b7b4e"
+    },
+    {
+      "path": "ghidra/ghidra-disassembly.S",
+      "bytes": 1725753,
+      "sha256": "82e33e7df9077c5ac782778354734da83701338f38e9fa95f6e85069ada07737"
+    },
+    {
+      "path": "ghidra/ghidra-export.json",
+      "bytes": 446,
+      "sha256": "33dc4528114e57ec098944ff3a93afe7bf3dcb251497eaee0192f89f8c6f6eaa"
+    },
+    {
+      "path": "ghidra/ghidra-functions.tsv",
+      "bytes": 22860,
+      "sha256": "098d993e9a24fcf171e9351df014979d1a5816a7c6b5afbf061784a1111c7897"
+    },
+    {
+      "path": "ghidra/ghidra-instructions.tsv",
+      "bytes": 1423214,
+      "sha256": "f79788d5f35af24e6e48df8dd55472db1fde8d892120e4df46f2ef6c03d5809b"
+    },
+    {
+      "path": "ghidra/ghidra-references.tsv",
+      "bytes": 338705,
+      "sha256": "72919ab4f07b33f21e652a1f104bd9db4569ee35e4daf07976e05fbd450fef37"
+    },
+    {
+      "path": "ghidra/ghidra-snapshot.facets/bookmarks.tsv",
+      "bytes": 1648,
+      "sha256": "fcdacac44600f316086915e7bba0881ea8073b11060212ff5a37a1864295d1eb"
+    },
+    {
+      "path": "ghidra/ghidra-snapshot.facets/comments.tsv",
+      "bytes": 36,
+      "sha256": "9c72a09257596919f0fa6bb76f5064e606b992089cb4f229a336653c9830fc62"
+    },
+    {
+      "path": "ghidra/ghidra-snapshot.facets/datatype-details.tsv",
+      "bytes": 67,
+      "sha256": "e12f3705bd78dcc2cc60ea1f2cedd7f1a035cc425fd00371c250918b639106d3"
+    },
+    {
+      "path": "ghidra/ghidra-snapshot.facets/datatypes.tsv",
+      "bytes": 807,
+      "sha256": "d3ea64ba8ed0ac10604f50cc2bc130ac42e4f62b12b06b9821bd55cc426d37dd"
+    },
+    {
+      "path": "ghidra/ghidra-snapshot.facets/defined-data.tsv",
+      "bytes": 17185,
+      "sha256": "68ad3712630a5ab08f79e148f4ae6250c720a7e76f988c6240265348be5d9baa"
+    },
+    {
+      "path": "ghidra/ghidra-snapshot.facets/functions.tsv",
+      "bytes": 36916,
+      "sha256": "2256cbe4c8838a2b96b231c99c890b88710246616d99fb9cedd5a0b71fa4cee1"
+    },
+    {
+      "path": "ghidra/ghidra-snapshot.facets/instructions.tsv",
+      "bytes": 1968724,
+      "sha256": "968ddadfdd411cf3a3f4ba5800bd071edbde114ab4bcc512031b93aeb6fa7027"
+    },
+    {
+      "path": "ghidra/ghidra-snapshot.facets/memory-blocks.tsv",
+      "bytes": 1242,
+      "sha256": "04d481ce7752377597bcbe07bb9dff276149cf778e80a075781301aaf124006e"
+    },
+    {
+      "path": "ghidra/ghidra-snapshot.facets/memory-sources.tsv",
+      "bytes": 548,
+      "sha256": "fc7fad3dc4fd4d2455a8350d0e967a46b14bdee350c2cd703e00b7739a9f96aa"
+    },
+    {
+      "path": "ghidra/ghidra-snapshot.facets/original-file-bytes.tsv",
+      "bytes": 218,
+      "sha256": "091f947fb5fde38c7159eb1df589d330ee0c5f921e0f5f7a8e8e078a89a615e1"
+    },
+    {
+      "path": "ghidra/ghidra-snapshot.facets/references.tsv",
+      "bytes": 534007,
+      "sha256": "2aaff6a9036a303c482c8531c4e6ceada211e67ad5a158752f62ca4953872040"
+    },
+    {
+      "path": "ghidra/ghidra-snapshot.facets/symbols.tsv",
+      "bytes": 240169,
+      "sha256": "950856f95705055b25b42e5e785f471e8eaea3f97d8440c455604a1b307f7006"
+    },
+    {
+      "path": "ghidra/ghidra-snapshot.facets/variables.tsv",
+      "bytes": 65275,
+      "sha256": "56c09b79374362a6d4fd2245bed7588c2147737e67ce84f129bf8d8df24d61c6"
+    },
+    {
+      "path": "ghidra/ghidra-snapshot.json",
+      "bytes": 2546,
+      "sha256": "be7ebb9d3aa8a93aa4b32ba0571f9ec2450da7c4077256df17017e9dec94fb07"
+    },
+    {
+      "path": "ghidra/headless.log",
+      "bytes": 9460,
+      "sha256": "f65b8e73a55f73b4f05f6acbd695a6f917108439d3b9cec49f9bd75f6e019399"
+    },
+    {
+      "path": "ghidra/memory-blocks.tsv",
+      "bytes": 1231,
+      "sha256": "866f8626f591181a0d423f7da265873cab8a8979cd42d26076fc2ee3bfbd0f88"
+    },
+    {
+      "path": "ghidra/memory-blocks/000_dsp_segment_01.bin",
+      "bytes": 246020,
+      "sha256": "f183ad499ae5b3c6600532a3b814da1c595bbe23ae84684d51b2970f7d24c2ae"
+    },
+    {
+      "path": "ghidra/memory-blocks/003_dsp_segment_00.bin",
+      "bytes": 16,
+      "sha256": "320a04d44b221cf1499f9d9cf7b383510eb996bbe0e9117ac5374f8d5b7a9502"
+    },
+    {
+      "path": "ghidra/memory-source-ranges.tsv",
+      "bytes": 550,
+      "sha256": "5d28ef5e2f41c9a27c5e94f3e3a84b93338191499e55a2cf213e645275ee7e0a"
+    },
+    {
+      "path": "ghidra/original-file-0.bin",
+      "bytes": 246244,
+      "sha256": "87c882910d87cd29ba2004c4154e9240291aaad6aedb0ff4d90c7a5570be79fd"
+    },
+    {
+      "path": "ghidra/original-file-1.bin",
+      "bytes": 246244,
+      "sha256": "87c882910d87cd29ba2004c4154e9240291aaad6aedb0ff4d90c7a5570be79fd"
+    },
+    {
+      "path": "ghidra/original-file-bytes.tsv",
+      "bytes": 268,
+      "sha256": "8419ee68ba412e07c06d813ea0aa7bd97f5ef3bf775243c2e864f836e694521e"
+    },
+    {
+      "path": "ghidra/preservation-result.json",
+      "bytes": 619,
+      "sha256": "0bb398192824595df81072762493c824ec60550ee63db5909d107350c683ea08"
+    },
+    {
+      "path": "ghidra/quantenna-analysis.gzf",
+      "bytes": 918853,
+      "sha256": "92748bdbabe791e6037f89e40837028351be321756db0d4bd10468bd1f788e53"
+    },
+    {
+      "path": "ghidra/roundtrip-command.json",
+      "bytes": 672,
+      "sha256": "b238008043b90fb57c4d174ffd3c73166b1217ce0609958032a18251db6874f8"
+    },
+    {
+      "path": "ghidra/roundtrip-snapshot.facets/bookmarks.tsv",
+      "bytes": 1648,
+      "sha256": "fcdacac44600f316086915e7bba0881ea8073b11060212ff5a37a1864295d1eb"
+    },
+    {
+      "path": "ghidra/roundtrip-snapshot.facets/comments.tsv",
+      "bytes": 36,
+      "sha256": "9c72a09257596919f0fa6bb76f5064e606b992089cb4f229a336653c9830fc62"
+    },
+    {
+      "path": "ghidra/roundtrip-snapshot.facets/datatype-details.tsv",
+      "bytes": 67,
+      "sha256": "e12f3705bd78dcc2cc60ea1f2cedd7f1a035cc425fd00371c250918b639106d3"
+    },
+    {
+      "path": "ghidra/roundtrip-snapshot.facets/datatypes.tsv",
+      "bytes": 807,
+      "sha256": "d3ea64ba8ed0ac10604f50cc2bc130ac42e4f62b12b06b9821bd55cc426d37dd"
+    },
+    {
+      "path": "ghidra/roundtrip-snapshot.facets/defined-data.tsv",
+      "bytes": 17185,
+      "sha256": "68ad3712630a5ab08f79e148f4ae6250c720a7e76f988c6240265348be5d9baa"
+    },
+    {
+      "path": "ghidra/roundtrip-snapshot.facets/functions.tsv",
+      "bytes": 36916,
+      "sha256": "2256cbe4c8838a2b96b231c99c890b88710246616d99fb9cedd5a0b71fa4cee1"
+    },
+    {
+      "path": "ghidra/roundtrip-snapshot.facets/instructions.tsv",
+      "bytes": 1968724,
+      "sha256": "968ddadfdd411cf3a3f4ba5800bd071edbde114ab4bcc512031b93aeb6fa7027"
+    },
+    {
+      "path": "ghidra/roundtrip-snapshot.facets/memory-blocks.tsv",
+      "bytes": 1242,
+      "sha256": "04d481ce7752377597bcbe07bb9dff276149cf778e80a075781301aaf124006e"
+    },
+    {
+      "path": "ghidra/roundtrip-snapshot.facets/memory-sources.tsv",
+      "bytes": 548,
+      "sha256": "fc7fad3dc4fd4d2455a8350d0e967a46b14bdee350c2cd703e00b7739a9f96aa"
+    },
+    {
+      "path": "ghidra/roundtrip-snapshot.facets/original-file-bytes.tsv",
+      "bytes": 218,
+      "sha256": "091f947fb5fde38c7159eb1df589d330ee0c5f921e0f5f7a8e8e078a89a615e1"
+    },
+    {
+      "path": "ghidra/roundtrip-snapshot.facets/references.tsv",
+      "bytes": 534007,
+      "sha256": "2aaff6a9036a303c482c8531c4e6ceada211e67ad5a158752f62ca4953872040"
+    },
+    {
+      "path": "ghidra/roundtrip-snapshot.facets/symbols.tsv",
+      "bytes": 240169,
+      "sha256": "950856f95705055b25b42e5e785f471e8eaea3f97d8440c455604a1b307f7006"
+    },
+    {
+      "path": "ghidra/roundtrip-snapshot.facets/variables.tsv",
+      "bytes": 65275,
+      "sha256": "56c09b79374362a6d4fd2245bed7588c2147737e67ce84f129bf8d8df24d61c6"
+    },
+    {
+      "path": "ghidra/roundtrip-snapshot.json",
+      "bytes": 2546,
+      "sha256": "be7ebb9d3aa8a93aa4b32ba0571f9ec2450da7c4077256df17017e9dec94fb07"
+    },
+    {
+      "path": "ghidra/roundtrip-verification.json",
+      "bytes": 349,
+      "sha256": "eb292ec2fd59c6e70e0467debe9ddd6d16e7bf55c3a7561f2dc17af829fb200a"
+    },
+    {
+      "path": "ghidra/roundtrip.log",
+      "bytes": 5718,
+      "sha256": "0721a1e4f3af435f5e1f4aa0efd693fb957bbe8130f6591e71fc1be2b6984326"
+    },
+    {
+      "path": "ghidra/roundtrip.stderr",
+      "bytes": 178,
+      "sha256": "85f9902c4f8155abd8df72486ef0b1ea3ab7d4136434571fa6ae9fe4b238a8db"
+    },
+    {
+      "path": "ghidra/roundtrip.stdout",
+      "bytes": 4818,
+      "sha256": "2fe69f6c7e345723ee012b3bd15c284413c64bee12ea1c736197b67fea235026"
+    },
+    {
+      "path": "ghidra/verify-command.json",
+      "bytes": 416,
+      "sha256": "26ef3c96a20c204b4b8ee2e1c6ebecd978f1abf57dc0a364b71be12446852346"
+    },
+    {
+      "path": "ghidra/verify.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "ghidra/verify.stdout",
+      "bytes": 1088,
+      "sha256": "d77eeddaccd92ebf73b97d6daf308a4da21c478210824c297ce78418583e6307"
+    },
+    {
+      "path": "rdsp_driver.0.bin",
+      "bytes": 246244,
+      "sha256": "87c882910d87cd29ba2004c4154e9240291aaad6aedb0ff4d90c7a5570be79fd"
+    },
+    {
+      "path": "segments/segment-00.bin",
+      "bytes": 16,
+      "sha256": "320a04d44b221cf1499f9d9cf7b383510eb996bbe0e9117ac5374f8d5b7a9502"
+    },
+    {
+      "path": "segments/segment-00.hex.tsv",
+      "bytes": 125,
+      "sha256": "1e45c6cc7daabb6ccbd15c6eb08c3e679e609d890ea43505617827b5eb1f23fb"
+    },
+    {
+      "path": "segments/segment-01.asm",
+      "bytes": 3580883,
+      "sha256": "ba4ab359ad889804a00aa4b26e1e598f7cc313e865b6f0badb77037bf04d0cf0"
+    },
+    {
+      "path": "segments/segment-01.bin",
+      "bytes": 246020,
+      "sha256": "f183ad499ae5b3c6600532a3b814da1c595bbe23ae84684d51b2970f7d24c2ae"
+    },
+    {
+      "path": "segments/segment-01.hex.tsv",
+      "bytes": 1241201,
+      "sha256": "c5940e668c2e2182eb507a24c9740ac831a4074d7a220ec8e640aeec04cb7473"
+    },
+    {
+      "path": "segments/segment-01.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "tools/ghidra/run_ghidra.py",
+      "bytes": 4206,
+      "sha256": "efd4055e34b35ae02d751db49718c9ac5ec0e0961b903953fa06b9f8d4ab1f89"
+    },
+    {
+      "path": "tools/ghidra/scripts/ExportQuantenna.java",
+      "bytes": 13589,
+      "sha256": "927033a2335ebf3913a9e883be65e45916b170dbc7d76e708223f63beca84ed8"
+    },
+    {
+      "path": "tools/ghidra/scripts/MapQuantennaCarrier.java",
+      "bytes": 10314,
+      "sha256": "64add6b849783d01edaaf89ada4cd416a779180148483feb8313f10212e1f0dc"
+    },
+    {
+      "path": "tools/ghidra/scripts/SnapshotQuantenna.java",
+      "bytes": 18106,
+      "sha256": "4f984a689f9f258c7425058b09bd9d51bb0b24f4d99dc4a53b5986d3260f29f3"
+    },
+    {
+      "path": "tools/ghidra/scripts/compare.py",
+      "bytes": 2242,
+      "sha256": "e50ce3e356f23aa90df588c57a60ca5e1d83c0938008252ea57285481bed4e13"
+    },
+    {
+      "path": "tools/ghidra/scripts/verify_export.py",
+      "bytes": 6126,
+      "sha256": "34990ff8faf42179f5aeb83bfa9dbe51b43693c2bf8bc02bdbf12f12809ce8b7"
+    },
+    {
+      "path": "tools/verify.py",
+      "bytes": 12692,
+      "sha256": "35a67b676fdf266d36408e8a1adf57f5c77b36ef407a7822400a2765a698d1af"
+    }
+  ],
+  "total_files": 713,
+  "total_bytes": 18936282,
+  "ghidra_preservation": {
+    "schema": "openmitrastar.ghidra-quantenna-export/v1",
+    "language": "ARCompact:LE:32:default",
+    "compiler": "default",
+    "blocks": 6,
+    "functions": 295,
+    "instructions": 30251,
+    "file_mapped_instructions": 30251,
+    "instruction_byte_mismatches": 0,
+    "decompiled_functions": 295,
+    "decompile_failures": 0,
+    "snapshot": "quantenna-analysis.gzf",
+    "snapshot_sha256": "92748bdbabe791e6037f89e40837028351be321756db0d4bd10468bd1f788e53",
+    "target_executed": false,
+    "hardware_accessed": false
+  },
+  "ghidra_roundtrip": {
+    "schema": "openmitrastar.ghidra-snapshot-comparison/v1",
+    "equal": true,
+    "different_fields": [],
+    "different_facets": [],
+    "facets_verified_each": 13,
+    "original_json_sha256": "be7ebb9d3aa8a93aa4b32ba0571f9ec2450da7c4077256df17017e9dec94fb07",
+    "restored_json_sha256": "be7ebb9d3aa8a93aa4b32ba0571f9ec2450da7c4077256df17017e9dec94fb07"
+  },
+  "documentation_update": {
+    "date": "2026-11-10",
+    "paths": [
+      "README.md",
+      "docs/CHECKOUT_AVAILABILITY.md",
+      "docs/FIRMWARE_MAP.md",
+      "docs/PROJECT_HANDOFF.md",
+      "docs/REFERENCE_NOTES.md",
+      "docs/REPOSITORY_MAP.md",
+      "docs/SYSTEM_ARCHITECTURE.md",
+      "docs/firmware-inventory.json"
+    ],
+    "scope": "Only documentation rows and aggregate counts updated; original non-document source/evidence rows retained"
+  }
+}

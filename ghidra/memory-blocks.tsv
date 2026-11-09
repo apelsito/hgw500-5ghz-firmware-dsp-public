@@ -1,0 +1,7 @@
+block	space	start	length	initialized	read	write	execute	file	sha256	comment
+dsp_segment_01	ram	0x20000	246020	true	true	true	true	000_dsp_segment_01.bin	f183ad499ae5b3c6600532a3b814da1c595bbe23ae84684d51b2970f7d24c2ae	OEM ELF segment 1; vaddr=0x20000; paddr=0x0; file_offset=196; view=core_linktime_primary. Paddr is retained as provenance, not substituted for core PC.
+dsp_segment_01_declared_BSS	ram	0x5c104	387740	false	true	true	false			Declared zero-file-byte memory extent. Target execution state is not observed.
+AUX_REGS	auxregs	0x0	16384	false	true	true	false			null
+dsp_segment_00	dsp_segment_00	0xffff0000	16	true	true	true	false	003_dsp_segment_00.bin	320a04d44b221cf1499f9d9cf7b383510eb996bbe0e9117ac5374f8d5b7a9502	OEM ELF segment 0; vaddr=0xffff0000; paddr=0x0; file_offset=180; view=nonloaded_FWINFO. Paddr is retained as provenance, not substituted for core PC.
+dsp_segment_02_declared_BSS	dsp_segment_02_declared_BSS	0xdcf80000	16320	false	true	true	false			Declared zero-file-byte memory extent. Target execution state is not observed.
+dsp_segment_03_declared_BSS	dsp_segment_03_declared_BSS	0xdcfa0000	16384	false	true	true	false			Declared zero-file-byte memory extent. Target execution state is not observed.

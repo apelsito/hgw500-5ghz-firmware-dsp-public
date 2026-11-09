@@ -1,0 +1,37 @@
+; Ghidra ARC instruction reconstruction. Addresses and bytes are preserved below.
+; function FUN_ram_00031184 entry ram:00031184
+ram:00031184	150b5100	brne r3,0x1,0x00031198
+ram:00031188	0a20801f00000020	mov r8,0x2000
+ram:00031190	15002000	b.d 0x000311a4
+ram:00031194	4a228013	_mov r10,0xe
+ram:00031198	4a22c013	mov r10,0xf
+ram:0003119c	0a20801f00000040	mov r8,0x4000
+ram:000311a4	4a210010	mov r9,0x0
+ram:000311a8	40298710	asl r7,r9,0x2
+ram:000311ac	3521c501	ldh.x r5,[r1, r7]
+ram:000311b0	0021c301	add r3,r1,r7
+ram:000311b4	302dbe00	mululw 0,r5,r2
+ram:000311b8	362dbe00	machlw 0,r5,r2
+ram:000311bc	00210672	add r6,mlo,r8
+ram:000311c0	00270700	add r7,r7,r0
+ram:000311c4	110c3000	breq.d r4,0x0,0x000311d4
+ram:000311c8	022e8602	_asr r6,r6,r10
+ram:000311cc	15002000	b.d 0x000311e0
+ram:000311d0	001f8401	_sth r6,[r7]
+ram:000311d4	00174501	ldh.x r5,[r7]
+ram:000311d8	00258501	add r5,r5,r6
+ram:000311dc	001f4401	sth r5,[r7]
+ram:000311e0	619b	ldw_s.x r3,[r3,0x2]
+ram:000311e2	302bbe00	mululw 0,r3,r2
+ram:000311e6	362bbe00	machlw 0,r3,r2
+ram:000311ea	00210672	add r6,mlo,r8
+ram:000311ee	130c3000	breq.d r4,0x0,0x000311fe
+ram:000311f2	022e8602	_asr r6,r6,r10
+ram:000311f6	15002000	b.d 0x00031208
+ram:000311fa	021f8401	_sth r6,[r7,0x2]
+ram:000311fe	02174301	ldh.x r3,[r7,0x2]
+ram:00031202	c073	add_s r3,r3,r6
+ram:00031204	021fc400	sth r3,[r7,0x2]
+ram:00031208	40214910	add r9,r9,0x1
+ram:0003120c	9d091294	brlt r9,0x10,0x000311a8
+ram:00031210	e07e	j_s [blink]

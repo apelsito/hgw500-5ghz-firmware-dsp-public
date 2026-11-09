@@ -1,0 +1,395 @@
+{
+  "command": [
+    "/usr/local/bin/rea",
+    "inspect-byte-entropy",
+    "/workspace/build/evidence/hgw500-quantenna-firmwares-20261103/run1/dsp/rdsp_driver.0.bin",
+    "--format",
+    "json"
+  ],
+  "returncode": 0,
+  "result": {
+    "evidence_id": "ev_138edae6a43c4d3901facf99e2a5c4be3d0170cdb733685dd68ced63984e8c40",
+    "subject": {
+      "name": "rdsp_driver.0.bin",
+      "digest": {
+        "sha256": "87c882910d87cd29ba2004c4154e9240291aaad6aedb0ff4d90c7a5570be79fd"
+      },
+      "local_path": "/workspace/build/evidence/hgw500-quantenna-firmwares-20261103/run1/dsp/rdsp_driver.0.bin",
+      "format": "file",
+      "architecture": null
+    },
+    "provider": {
+      "id": "byte-entropy",
+      "name": "REA byte entropy",
+      "version": "1"
+    },
+    "analysis_profile": null,
+    "predicate_type": "rea.analysis",
+    "operation": "inspect_byte_entropy",
+    "parameters": {
+      "path": "/workspace/build/evidence/hgw500-quantenna-firmwares-20261103/run1/dsp/rdsp_driver.0.bin",
+      "block_size": 4096,
+      "offset": 0
+    },
+    "raw_result": null,
+    "normalized_result": {
+      "artifact": {
+        "path": "/workspace/build/evidence/hgw500-quantenna-firmwares-20261103/run1/dsp/rdsp_driver.0.bin",
+        "bytes": 246244,
+        "sha256": "87c882910d87cd29ba2004c4154e9240291aaad6aedb0ff4d90c7a5570be79fd"
+      },
+      "block_size": 4096,
+      "window": {
+        "offset": 0,
+        "length": 246244
+      },
+      "file_entropy": 6.981,
+      "thresholds": {
+        "high": 7.2,
+        "low": 1
+      },
+      "blocks": [
+        {
+          "offset": 0,
+          "length": 4096,
+          "entropy": 6.0696
+        },
+        {
+          "offset": 4096,
+          "length": 4096,
+          "entropy": 6.0349
+        },
+        {
+          "offset": 8192,
+          "length": 4096,
+          "entropy": 6.3217
+        },
+        {
+          "offset": 12288,
+          "length": 4096,
+          "entropy": 6.5434
+        },
+        {
+          "offset": 16384,
+          "length": 4096,
+          "entropy": 6.7455
+        },
+        {
+          "offset": 20480,
+          "length": 4096,
+          "entropy": 6.6846
+        },
+        {
+          "offset": 24576,
+          "length": 4096,
+          "entropy": 6.4026
+        },
+        {
+          "offset": 28672,
+          "length": 4096,
+          "entropy": 6.5179
+        },
+        {
+          "offset": 32768,
+          "length": 4096,
+          "entropy": 6.1024
+        },
+        {
+          "offset": 36864,
+          "length": 4096,
+          "entropy": 6.2116
+        },
+        {
+          "offset": 40960,
+          "length": 4096,
+          "entropy": 6.4231
+        },
+        {
+          "offset": 45056,
+          "length": 4096,
+          "entropy": 6.3148
+        },
+        {
+          "offset": 49152,
+          "length": 4096,
+          "entropy": 6.4646
+        },
+        {
+          "offset": 53248,
+          "length": 4096,
+          "entropy": 6.3393
+        },
+        {
+          "offset": 57344,
+          "length": 4096,
+          "entropy": 5.4988
+        },
+        {
+          "offset": 61440,
+          "length": 4096,
+          "entropy": 6.2949
+        },
+        {
+          "offset": 65536,
+          "length": 4096,
+          "entropy": 6.4501
+        },
+        {
+          "offset": 69632,
+          "length": 4096,
+          "entropy": 6.7038
+        },
+        {
+          "offset": 73728,
+          "length": 4096,
+          "entropy": 6.6211
+        },
+        {
+          "offset": 77824,
+          "length": 4096,
+          "entropy": 6.6839
+        },
+        {
+          "offset": 81920,
+          "length": 4096,
+          "entropy": 6.7951
+        },
+        {
+          "offset": 86016,
+          "length": 4096,
+          "entropy": 6.7035
+        },
+        {
+          "offset": 90112,
+          "length": 4096,
+          "entropy": 6.6495
+        },
+        {
+          "offset": 94208,
+          "length": 4096,
+          "entropy": 6.6419
+        },
+        {
+          "offset": 98304,
+          "length": 4096,
+          "entropy": 6.8117
+        },
+        {
+          "offset": 102400,
+          "length": 4096,
+          "entropy": 6.4534
+        },
+        {
+          "offset": 106496,
+          "length": 4096,
+          "entropy": 6.4927
+        },
+        {
+          "offset": 110592,
+          "length": 4096,
+          "entropy": 6.3287
+        },
+        {
+          "offset": 114688,
+          "length": 4096,
+          "entropy": 6.359
+        },
+        {
+          "offset": 118784,
+          "length": 4096,
+          "entropy": 6.7324
+        },
+        {
+          "offset": 122880,
+          "length": 4096,
+          "entropy": 6.69
+        },
+        {
+          "offset": 126976,
+          "length": 4096,
+          "entropy": 6.175
+        },
+        {
+          "offset": 131072,
+          "length": 4096,
+          "entropy": 6.5075
+        },
+        {
+          "offset": 135168,
+          "length": 4096,
+          "entropy": 6.3668
+        },
+        {
+          "offset": 139264,
+          "length": 4096,
+          "entropy": 6.2969
+        },
+        {
+          "offset": 143360,
+          "length": 4096,
+          "entropy": 6.248
+        },
+        {
+          "offset": 147456,
+          "length": 4096,
+          "entropy": 6.2124
+        },
+        {
+          "offset": 151552,
+          "length": 4096,
+          "entropy": 6.1822
+        },
+        {
+          "offset": 155648,
+          "length": 4096,
+          "entropy": 6.1252
+        },
+        {
+          "offset": 159744,
+          "length": 4096,
+          "entropy": 6.0803
+        },
+        {
+          "offset": 163840,
+          "length": 4096,
+          "entropy": 6.0861
+        },
+        {
+          "offset": 167936,
+          "length": 4096,
+          "entropy": 6.0866
+        },
+        {
+          "offset": 172032,
+          "length": 4096,
+          "entropy": 6.0509
+        },
+        {
+          "offset": 176128,
+          "length": 4096,
+          "entropy": 6.0514
+        },
+        {
+          "offset": 180224,
+          "length": 4096,
+          "entropy": 6.0419
+        },
+        {
+          "offset": 184320,
+          "length": 4096,
+          "entropy": 6.7001
+        },
+        {
+          "offset": 188416,
+          "length": 4096,
+          "entropy": 6.6008
+        },
+        {
+          "offset": 192512,
+          "length": 4096,
+          "entropy": 6.4653
+        },
+        {
+          "offset": 196608,
+          "length": 4096,
+          "entropy": 6.3713
+        },
+        {
+          "offset": 200704,
+          "length": 4096,
+          "entropy": 6.288
+        },
+        {
+          "offset": 204800,
+          "length": 4096,
+          "entropy": 6.1738
+        },
+        {
+          "offset": 208896,
+          "length": 4096,
+          "entropy": 6.1344
+        },
+        {
+          "offset": 212992,
+          "length": 4096,
+          "entropy": 5.6529
+        },
+        {
+          "offset": 217088,
+          "length": 4096,
+          "entropy": 3.4195
+        },
+        {
+          "offset": 221184,
+          "length": 4096,
+          "entropy": 0.0066
+        },
+        {
+          "offset": 225280,
+          "length": 4096,
+          "entropy": 0.0033
+        },
+        {
+          "offset": 229376,
+          "length": 4096,
+          "entropy": 0.0033
+        },
+        {
+          "offset": 233472,
+          "length": 4096,
+          "entropy": 0.0033
+        },
+        {
+          "offset": 237568,
+          "length": 4096,
+          "entropy": 1.3516
+        },
+        {
+          "offset": 241664,
+          "length": 4096,
+          "entropy": 6.0964
+        },
+        {
+          "offset": 245760,
+          "length": 484,
+          "entropy": 0.6317
+        }
+      ],
+      "runs": [
+        {
+          "offset": 221184,
+          "length": 16384,
+          "classification": "low"
+        },
+        {
+          "offset": 245760,
+          "length": 484,
+          "classification": "low"
+        }
+      ],
+      "limitations": [
+        "Entropy does not prove encryption; compressed and encrypted bytes cannot be distinguished by this measure.",
+        "Entropy is rounded to four decimal places; thresholds classify those reported values. Small blocks can underestimate entropy.",
+        "The file-wide hash and entropy cover the entire file; blocks and runs cover only the selected window. Empty input has entropy 0 by convention."
+      ]
+    },
+    "confidence": "observed",
+    "authority": "shipped-artifact",
+    "environment": null,
+    "limitations": [
+      "Entropy does not prove encryption; compressed and encrypted bytes cannot be distinguished by this measure.",
+      "Entropy is rounded to four decimal places; thresholds classify those reported values. Small blocks can underestimate entropy.",
+      "The file-wide hash and entropy cover the entire file; blocks and runs cover only the selected window. Empty input has entropy 0 by convention."
+    ],
+    "relationship_coverage": null,
+    "locations": [
+      {
+        "kind": "artifact-path",
+        "path": "/workspace/build/evidence/hgw500-quantenna-firmwares-20261103/run1/dsp/rdsp_driver.0.bin"
+      }
+    ],
+    "evidence_links": []
+  },
+  "stdout_file": "rea-entropy.stdout",
+  "stderr_file": "rea-entropy.stderr"
+}

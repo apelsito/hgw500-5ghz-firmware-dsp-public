@@ -1,0 +1,17 @@
+; Ghidra ARC instruction reconstruction. Addresses and bytes are preserved below.
+; function FUN_ram_00029852 entry ram:00029852
+ram:00029852	30141930	ld r25,[sp,0x30]
+ram:00029856	2c141830	ld r24,[sp,0x2c]
+ram:0002985a	28141730	ld r23,[sp,0x28]
+ram:0002985e	24141630	ld r22,[sp,0x24]
+ram:00029862	20141530	ld r21,[sp,0x20]
+ram:00029866	1c141430	ld r20,[sp,0x1c]
+ram:0002986a	18141330	ld r19,[sp,0x18]
+ram:0002986e	14141230	ld r18,[sp,0x14]
+ram:00029872	10141130	ld r17,[sp,0x10]
+ram:00029876	0c141030	ld r16,[sp,0xc]
+ram:0002987a	02c7	ld_s r15,[sp,0x8]
+ram:0002987c	01c6	ld_s r14,[sp,0x4]
+ram:0002987e	b0244d33	ld.ab r13,[sp, r13]
+ram:00029882	b0241f33	ld.ab blink,[sp, r12]
+ram:00029886	e07e	j_s [blink]

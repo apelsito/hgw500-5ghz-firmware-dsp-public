@@ -1,0 +1,60 @@
+{
+  "class": "ELF32",
+  "byte_order": "little",
+  "e_machine": 93,
+  "machine_declared": "ARCompact",
+  "entry": "0x20000",
+  "program_header_count": 4,
+  "section_header_count": 0,
+  "elf_flags": "0x0",
+  "segments": [
+    {
+      "index": 0,
+      "type": 1,
+      "file_offset": 180,
+      "virtual_address": "0xffff0000",
+      "physical_address": "0x0",
+      "file_bytes": 16,
+      "memory_bytes": 16,
+      "flags": 6,
+      "alignment": 4096,
+      "sha256": "320a04d44b221cf1499f9d9cf7b383510eb996bbe0e9117ac5374f8d5b7a9502"
+    },
+    {
+      "index": 1,
+      "type": 1,
+      "file_offset": 196,
+      "virtual_address": "0x20000",
+      "physical_address": "0x0",
+      "file_bytes": 246020,
+      "memory_bytes": 633760,
+      "flags": 7,
+      "alignment": 65536,
+      "sha256": "f183ad499ae5b3c6600532a3b814da1c595bbe23ae84684d51b2970f7d24c2ae"
+    },
+    {
+      "index": 2,
+      "type": 1,
+      "file_offset": 246216,
+      "virtual_address": "0xdcf80000",
+      "physical_address": "0x0",
+      "file_bytes": 0,
+      "memory_bytes": 16320,
+      "flags": 6,
+      "alignment": 4096,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "index": 3,
+      "type": 1,
+      "file_offset": 246216,
+      "virtual_address": "0xdcfa0000",
+      "physical_address": "0x0",
+      "file_bytes": 0,
+      "memory_bytes": 16384,
+      "flags": 6,
+      "alignment": 4096,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+; Ghidra ARC instruction reconstruction. Addresses and bytes are preserved below.
+; function FUN_ram_0002587c entry ram:0002587c
+ram:0002587c	e1c5	push_s r13
+ram:0002587e	e1c6	push_s r14
+ram:00025880	e1c7	push_s r15
+ram:00025882	fc1c08b4	st.aw r16,[sp,-0x4]
+ram:00025886	fc1c48b4	st.aw r17,[sp,-0x4]
+ram:0002588a	a2c1	sub_s sp,sp,0x8
+ram:0002588c	0a21c027	mov r17,blink
+ram:00025890	cf7700e00400	mov_s r15,0xe0000004
+ram:00025896	b8170218	ld.di r2,[r15,0xb8]
+ram:0002589a	5582	ld_s r2,[r2,0x54]
+ram:0002589c	9870	mov_s r4,r0
+ram:0002589e	3022808f0000180e	ld.di r0,[r2, 0xe18]
+ram:000258a6	d9087e03	bbit0.d r0,0xd,0x0002597c
+ram:000258aa	2876	_mov_s r14,r1
+ram:000258ac	10140d08	ld.di r13,[r4,0x10]
+ram:000258b0	b8170118	ld.di r1,[r15,0xb8]
+ram:000258b4	5581	ld_s r2,[r1,0x54]
+ram:000258b6	3022838f0000180e	ld.di r3,[r2, 0xe18]
+ram:000258be	b8170218	ld.di r2,[r15,0xb8]
+ram:000258c2	1582	ld_s r0,[r2,0x54]
+ram:000258c4	adbb	bclr_s r3,r3,0xd
+ram:000258c6	00208c0f0000180e	add r12,r0,0xe18
+ram:000258ce	001ce010	st.di r3,[r12]
+ram:000258d2	b8170318	ld.di r3,[r15,0xb8]
+ram:000258d6	3583	ld_s r1,[r3,0x54]
+ram:000258d8	3021838f0000140e	ld.di r3,[r1, 0xe14]
+ram:000258e0	11eb	breq_s r3,0,0x00025902
+ram:000258e2	b8170018	ld.di r0,[r15,0xb8]
+ram:000258e6	1580	ld_s r0,[r0,0x54]
+ram:000258e8	3020828f0000140e	ld.di r2,[r0, 0xe14]
+ram:000258f0	09ea	breq_s r2,0,0x00025902
+ram:000258f2	18140108	ld.di r1,[r4,0x18]
+ram:000258f6	cf700500f053	mov_s r0,0x553f0
+ram:000258fc	720f6ffd	bl.d 0x0002086c
+ram:00025900	c972	_mov_s r2,r14
+ram:00025902	4a200020	mov r16,0x0
+ram:00025906	45be	asr_s r14,r14,0x5
+ram:00025908	750e0214	brlt r14,r16,0x0002597c
+ram:0002590c	b8170118	ld.di r1,[r15,0xb8]
+ram:00025910	7581	ld_s r3,[r1,0x54]
+ram:00025912	3023838f0000140e	ld.di r3,[r3, 0xe14]
+ram:0002591a	2eeb	breq_s r3,0,0x00025974
+ram:0002591c	b8170218	ld.di r2,[r15,0xb8]
+ram:00025920	5582	ld_s r2,[r2,0x54]
+ram:00025922	3022808f0000140e	ld.di r0,[r2, 0xe14]
+ram:0002592a	26e8	breq_s r0,0,0x00025974
+ram:0002592c	cf7005002454	mov_s r0,0x55424
+ram:00025932	40284121	asl r1,r16,0x5
+ram:00025936	2265	ld_s r2,[r13,r1]
+ram:00025938	3b65	add_s r3,r13,r1
+ram:0002593a	6183	ld_s r3,[r3,0x4]
+ram:0002593c	00254410	add r4,r13,r1
+ram:00025940	08140400	ld r4,[r4,0x8]
+ram:00025944	00254510	add r5,r13,r1
+ram:00025948	0c150500	ld r5,[r5,0xc]
+ram:0002594c	00254610	add r6,r13,r1
+ram:00025950	10160600	ld r6,[r6,0x10]
+ram:00025954	00254710	add r7,r13,r1
+ram:00025958	00254810	add r8,r13,r1
+ram:0002595c	18100810	ld r8,[r8,0x18]
+ram:00025960	14170700	ld r7,[r7,0x14]
+ram:00025964	b961	add_s r1,r1,r13
+ram:00025966	2781	ld_s r1,[r1,0x1c]
+ram:00025968	001c0032	st r8,[sp]
+ram:0002596c	41c1	st_s r1,[sp,0x4]
+ram:0002596e	020f6ffd	bl.d 0x0002086c
+ram:00025972	0a71	_mov_s r1,r16
+ram:00025974	40205020	add r16,r16,0x1
+ram:00025978	950e0394	brge r14,r16,0x0002590c
+ram:0002597c	0a274034	mov blink,r17
+ram:00025980	a2c0	add_s sp,sp,0x8
+ram:00025982	04141134	ld.ab r17,[sp,0x4]
+ram:00025986	04141034	ld.ab r16,[sp,0x4]
+ram:0002598a	c1c7	pop_s r15
+ram:0002598c	c1c6	pop_s r14
+ram:0002598e	e07f	j_s.d [blink]
+ram:00025990	c1c5	_pop_s r13

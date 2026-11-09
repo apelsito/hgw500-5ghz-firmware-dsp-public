@@ -1,0 +1,27 @@
+{
+  "schema": "openmitrastar.ghidra-quantenna-export-verification/v1",
+  "role": "dsp",
+  "original_filename": "rdsp_driver.0.bin",
+  "original_bytes": 246244,
+  "original_sha256": "87c882910d87cd29ba2004c4154e9240291aaad6aedb0ff4d90c7a5570be79fd",
+  "original_filebytes_verified": [
+    "original-file-0.bin",
+    "original-file-1.bin"
+  ],
+  "original_entire_file_preserved": true,
+  "source_ranges_verified": 2,
+  "unique_input_bytes_mapped": 246036,
+  "instructions": 30251,
+  "file_mapped_instructions_verified": 30251,
+  "unique_input_instruction_bytes": 103996,
+  "functions": 295,
+  "c_reconstructions": 295,
+  "snapshot_sha256": "92748bdbabe791e6037f89e40837028351be321756db0d4bd10468bd1f788e53",
+  "all_checks_passed": true,
+  "limits": [
+    "Input byte identity, source mappings and inventories are verified.",
+    "Function extent and reconstructed C remain Ghidra's static analysis observations.",
+    "ARC ISA extensions, ABI and execution equivalence require separate validation.",
+    "GZF must be reopened with the same processor extension to verify portability."
+  ]
+}

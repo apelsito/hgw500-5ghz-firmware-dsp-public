@@ -1,0 +1,26 @@
+{
+  "role": "dsp",
+  "sha256": "87c882910d87cd29ba2004c4154e9240291aaad6aedb0ff4d90c7a5570be79fd",
+  "input_bytes": 246244,
+  "segments": [
+    {
+      "index": 0,
+      "file_bytes": 16,
+      "sha256": "320a04d44b221cf1499f9d9cf7b383510eb996bbe0e9117ac5374f8d5b7a9502"
+    },
+    {
+      "index": 1,
+      "file_bytes": 246020,
+      "sha256": "f183ad499ae5b3c6600532a3b814da1c595bbe23ae84684d51b2970f7d24c2ae",
+      "byte_rows": 75363,
+      "bytes_verified": 246020,
+      "all_assembly_rows_verified": true,
+      "all_segment_bytes_preserved_in_hex": true,
+      "bytes_without_assembly_row": 0,
+      "first_missing_segment_offsets": [],
+      "unknown_or_data_directive_rows": 7545
+    }
+  ],
+  "all_checks_passed": true,
+  "validation_scope": "Byte identity and linear ARC700 decoding export, without function/semantic validation."
+}

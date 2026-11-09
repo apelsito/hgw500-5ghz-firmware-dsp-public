@@ -1,0 +1,7 @@
+block	space	start	length	file_offset	source_name	source_description
+dsp_segment_01	ram	0x20000	246020	196	rdsp_driver.0.bin	rdsp_driver.0.bin[0xc4, 0x3c104]
+dsp_segment_01_declared_BSS	ram	0x5c104	387740	-1		uninit[0x5ea9c]
+AUX_REGS	auxregs	0x0	16384	-1		uninit[0x4000]
+dsp_segment_00	dsp_segment_00	0xffff0000	16	180	rdsp_driver.0.bin	rdsp_driver.0.bin[0xb4, 0x10]
+dsp_segment_02_declared_BSS	dsp_segment_02_declared_BSS	0xdcf80000	16320	-1		uninit[0x3fc0]
+dsp_segment_03_declared_BSS	dsp_segment_03_declared_BSS	0xdcfa0000	16384	-1		uninit[0x4000]

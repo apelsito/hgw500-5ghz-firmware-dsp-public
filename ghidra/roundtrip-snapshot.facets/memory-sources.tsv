@@ -1,0 +1,7 @@
+block	start	end	bytes	file_bytes_offset	file_basename
+AUX_REGS	auxregs:0000	auxregs:0fff.3	16384	-1	
+dsp_segment_00	dsp_segment_00:ffff0000	dsp_segment_00:ffff000f	16	180	rdsp_driver.0.bin
+dsp_segment_01	ram:00020000	ram:0005c103	246020	196	rdsp_driver.0.bin
+dsp_segment_01_declared_BSS	ram:0005c104	ram:000bab9f	387740	-1	
+dsp_segment_02_declared_BSS	dsp_segment_02_declared_BSS:dcf80000	dsp_segment_02_declared_BSS:dcf83fbf	16320	-1	
+dsp_segment_03_declared_BSS	dsp_segment_03_declared_BSS:dcfa0000	dsp_segment_03_declared_BSS:dcfa3fff	16384	-1	

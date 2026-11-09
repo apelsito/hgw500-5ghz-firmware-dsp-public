@@ -1,0 +1,9 @@
+{
+  "schema": "openmitrastar.ghidra-snapshot-comparison/v1",
+  "equal": true,
+  "different_fields": [],
+  "different_facets": [],
+  "facets_verified_each": 13,
+  "original_json_sha256": "be7ebb9d3aa8a93aa4b32ba0571f9ec2450da7c4077256df17017e9dec94fb07",
+  "restored_json_sha256": "be7ebb9d3aa8a93aa4b32ba0571f9ec2450da7c4077256df17017e9dec94fb07"
+}
